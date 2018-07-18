@@ -120,7 +120,9 @@ def sent2semevalTags(relInSent,sent):
         xmlstr = xmlstr.replace('<el>','').replace('</el>', '').replace('</entity>', '')
         if txtOrder == relOrder: label = '{}(e1,e2)'.format(rel[1][0] )
         else: label = '{}(e2,e1)'.format(rel[1][0] )
-        res.append( '{}\n{}\nComment:\n'.format(xmlstr.strip('\n'), label) )
+
+        if args.nc: res.append( '{}\n{}\n'.format(xmlstr.strip('\n'), label) )
+        else: res.append( '{}\n{}\nComment:\n'.format(xmlstr.strip('\n'), label) )
 
 def run(relpath, xmlpath, outpath):
     dict_rel = getRelationDict(relpath)
@@ -140,7 +142,8 @@ def run(relpath, xmlpath, outpath):
                 if len(relInSent) > 0: sent2semevalTags(relInSent, s)  #print(relInSent, s)
     
     out = open( outpath ,'w')
-    out.write( '\n'.join( ['{}\t{}'.format(i, r)  for i,r in enumerate(res)] ) )
+    if args.ni: out.write( '\n'.join( [ r  for r in res] ) )
+    else: out.write( '\n'.join( ['{}\t{}'.format(i, r)  for i,r in enumerate(res)] ) )
     out.close()
 
 if __name__ == '__main__':
@@ -150,6 +153,8 @@ if __name__ == '__main__':
     parser.add_argument('-xml', '--xmlpath', help='XML file path containing the text : example : 1.1.text.xml')
     parser.add_argument('-rel', '--relationspath', help='TXT file path containing the relations info : example : 1.1.relations.txt')
     parser.add_argument('-out', '--outputpath', help='path for the output TXT file : example : TRAIN.TXT')
+    parser.add_argument('-nc', action='store_true', help='remove the comment line')
+    parser.add_argument('-ni', action='store_true', help='remove the index indication')
     args = parser.parse_args()
 
     run(args.relationspath, args.xmlpath, args.outputpath)

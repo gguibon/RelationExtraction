@@ -16,6 +16,16 @@ Example commands for Training file and test file creation :
 
 ```python3 semeval2018to2010format.py -xml 2.test.text.xml -rel keys.test.2.txt -out TEST.TXT ```
 
+#### Options
+
+Remove the comment line with the nc flag :
+```python3 semeval2018to2010format.py -xml 2.test.text.xml -rel keys.test.2.txt -out TEST_nocomment_noindex.TXT -nc```
+
+Remove the index information with the ni flag :
+```python3 semeval2018to2010format.py -xml 2.test.text.xml -rel keys.test.2.txt -out TEST_nocomment_noindex.TXT -ni```
+
+All flags can be used together.
+
 ### Result
 
 Result files are already there under the names : TRAIN.TXT and TEST.TXT

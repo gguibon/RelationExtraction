@@ -1,0 +1,1101 @@
+This paper introduces a simple mixture language model that attempts to capture <e1>long distance constraints</e1> in a <e2>sentence</e2> or paragraph
+PART_WHOLE(e2,e1)
+
+Using the <e1>BU recognition system</e1>, experiments show a 7% improvement in <e2>recognition accuracy</e2> with the mixture digram models as compared to using a Digram model.
+RESULT(e2,e1)
+
+Using the BU recognition system, experiments show a 7% improvement in recognition accuracy with the <e1>mixture digram models</e1> as compared to using a <e2>Digram model</e2>.
+COMPARE(e2,e1)
+
+The identification of unknown <e1>proper names</e1> in <e2>text</e2> is a significant challenge for NLP systems operating on unrestricted text
+PART_WHOLE(e2,e1)
+
+The identification of unknown proper names in text is a significant challenge for <e1>NLP systems</e1> operating on <e2>unrestricted text</e2>
+USAGE(e2,e1)
+
+A system which indexes <e1>documents</e1> according to <e2>name references</e2> can be useful for information retrieval or as a preprocessor for more knowledge intensive tasks such as database extraction
+MODEL-FEATURE(e1,e2)
+
+This paper describes a system which uses text skimming techniques for deriving <e1>proper names</e1> and their <e2>semantic attributes</e2> automatically from newswire text, without relying on any listing of name elements
+MODEL-FEATURE(e1,e2)
+
+In order to identify new names, the system treats <e1>proper names</e1> as (potentially) <e2>context-dependent linguistic expressions</e2>
+MODEL-FEATURE(e1,e2)
+
+In addition to using <e1>information</e1> in the <e2>local context</e2>, the system exploits a computational model of discourse which identifies individuals based on the way they are described in the text, instead of relying on their description in a pre-existing knowledge base.
+PART_WHOLE(e2,e1)
+
+Some <e1>entities</e1> belong more or less to a <e2>class</e2>
+PART_WHOLE(e2,e1)
+
+To specify whether an individual <e1>entity</e1> belonging to a <e2>class</e2> is typical or not, we borrow the topological concepts of interior, border, closure, and exterior
+PART_WHOLE(e2,e1)
+
+It enables to define levels of typicality where individual <e1>entities</e1> are more or less typical elements of a <e2>concept</e2>.
+MODEL-FEATURE(e2,e1)
+
+<e1>WordNet</e1> has been used extensively as a resource for the <e2>Word Sense Disambiguation &amp;&amp;lpar&amp;&amp;WSD&amp;&amp;rpar&amp;&amp; task</e2>, both as a sense inventory and a repository of semantic relationships
+USAGE(e2,e1)
+
+We found that it would be very useful to assign to <e1>geographical entities</e1> in <e2>WordNet</e2> their coordinates, especially in order to implement geometric shape-based disambiguation methods
+PART_WHOLE(e2,e1)
+
+The annotation has been carried out by extracting <e1>geographical synsets</e1> from <e2>WordNet</e2>, together with their holonyms and hypernyms, and comparing them to the entries in the Wikipedia-World geographical database
+PART_WHOLE(e2,e1)
+
+A <e1>weight</e1> was calculated for each of the <e2>candidate annotations</e2>, on the basis of matches found between the database entries and synset gloss, holonyms and hypernyms
+MODEL-FEATURE(e2,e1)
+
+"We present a robust summarisation system developed within the GATE architecture that makes use of <e1>robust components</e1> for <e2>semantic tagging</e2> and coreference resolution provided by GATE
+USAGE(e2,e1)
+
+Our system combines GATE components with well established <e1>statistical techniques</e1> developed for the purpose of <e2>text summarisation research</e2>
+USAGE(e2,e1)
+
+Prior to MUC-4, LINK had been used to extract <e1>information</e1> from <e2>free-form texts</e2> in two narrow application domains
+PART_WHOLE(e2,e1)
+
+One <e1>application corpus</e1> contained <e2>terse descriptions</e2> of symptoms displayed by malfunctioning automobiles, and the repairs which fixed them
+PART_WHOLE(e1,e2)
+
+In empirical testing in these two domains, <e1>LINK</e1> correctly processed 70% of previously unseen <e2>descriptions</e2>
+USAGE(e2,e1)
+
+A template was counted as correct only if all of the <e1>fillers</e1> in the <e2>template</e2> were filled correctly
+PART_WHOLE(e2,e1)
+
+These previous <e1>domains</e1> were much narrower than the <e2>MUC-4 terrorism domain</e2>
+COMPARE(e2,e1)
+
+As a comparison, the <e1>lexicons</e1> for the previous domains contained only 300-500 <e2>words</e2>, compared with 6700 words in our MUC-4 test configuration
+PART_WHOLE(e1,e2)
+
+Previous <e1>grammar size</e1> ranged from 75-100 rules, compared with over 500 rules in the <e2>MUC-4 knowledge base</e2>
+COMPARE(e2,e1)
+
+Thus, the integration of <e1>information</e1> from multiple <e2>sentences</e2> was not an issue in our previous work.
+PART_WHOLE(e2,e1)
+
+Brief Summary of Objectives: There are three objectives of the contract: to perform research and development in parallel parsing, semantic representation, ill-formed input, discourse, and tools for linguistic knowledge acquisition, and to integrate software components from BBN and elsewhere to produce Janus, DARPA's New Generation Natural Language Interface, and to demonstrate state-of-the-art natural <e1>language technology</e1> in <e2>DARPA applications</e2>
+USAGE(e2,e1)
+
+In this paper, we introduce Tree-Based Pattern representation where a pattern is denoted as a path in the <e1>dependency tree</e1> of a <e2>sentence</e2>
+MODEL-FEATURE(e2,e1)
+
+We outline the procedure to acquire <e1>Tree-Based Patterns</e1> in Japanese from <e2>un-annotated text</e2>
+PART_WHOLE(e2,e1)
+
+The system extracts the relevant <e1>sentences</e1> from the <e2>training data</e2> based on TF/IDF scoring and the common paths in the parse tree of relevant sentences are taken as extracted patterns.
+PART_WHOLE(e2,e1)
+
+The system extracts the relevant sentences from the training data based on TF/IDF scoring and the common paths in the <e1>parse tree</e1> of relevant <e2>sentences</e2> are taken as extracted patterns.
+MODEL-FEATURE(e2,e1)
+
+To overcome this problem, we present in this paper a procedure for the automatic extraction of <e1>application-tuned consistent subgrammars</e1> from proved <e2>large-scale generation grammars</e2>
+PART_WHOLE(e2,e1)
+
+The procedure has been implemented for large-scale systemic grammars and builds on the formal equivalence between <e1>systemic grammars</e1> and <e2>typed unification based grammars</e2>
+COMPARE(e2,e1)
+
+First, the <e1>task</e1> has been performed traditionally using <e2>heuristics</e2> from the domain
+USAGE(e1,e2)
+
+We present a comparative evaluation of several <e1>machine learning algorithms</e1> applied to <e2>spam filtering</e2>, considering the text of the messages and a set of heuristics for the task
+USAGE(e2,e1)
+
+We present a comparative evaluation of several machine learning algorithms applied to spam filtering, considering the text of the messages and a set of <e1>heuristics</e1> for the <e2>task</e2>
+USAGE(e2,e1)
+
+The <e1>framework</e1> includes a <e2>dialog history</e2> that tracks input, output, and results
+PART_WHOLE(e1,e2)
+
+We present the <e1>framework</e1> and preliminary results in two <e2>application domains</e2>.
+USAGE(e2,e1)
+
+Near-perfect <e1>automatic accent assignment</e1> is attainable for <e2>citation-style speech</e2>, but better computational models are needed to predict accent in extended, spontaneous discourses
+USAGE(e2,e1)
+
+Near-perfect automatic accent assignment is attainable for citation-style speech, but better <e1>computational models</e1> are needed to predict accent in <e2>extended, spontaneous discourses</e2>
+USAGE(e2,e1)
+
+<e1>Machine learning experiments</e1> on 1031 <e2>noun phrases</e2> from eighteen spontaneous direction-giving monologues show that accent assignment can be significantly improved by up to 4%-6% relative to a hypothetical baseline system that would produce only citation-form accentuation, giving error rate reductions of 11%-25%.
+USAGE(e2,e1)
+
+A key task in an <e1>extraction system</e1> for <e2>query-oriented multi-document summarisation</e2>, necessary for computing relevance and redundancy, is modelling text semantics
+USAGE(e2,e1)
+
+Accurate dependency recovery has recently been reported for a number of <e1>wide-coverage statistical parsers</e1> using <e2>Combinatory Categorial Grammar &amp;&amp;lpar&amp;&amp;ccg&amp;&amp;rpar&amp;&amp;</e2>
+USAGE(e1,e2)
+
+However, overall figures give no indication of a parser's performance on specific constructions, nor how suitable a <e1>parser</e1> is for specific <e2>applications</e2>
+USAGE(e2,e1)
+
+In this paper we give a detailed evaluation of a ccg parser on <e1>object extraction dependencies</e1> found in <e2>wsj text</e2>
+PART_WHOLE(e2,e1)
+
+We also show how the <e1>parser</e1> can be used to parse <e2>questions</e2> for Question Answering
+USAGE(e2,e1)
+
+The <e1>accuracy</e1> of the original <e2>parser</e2> on questions is very poor, and we propose a novel technique for porting the parser to a new domain, by creating new labelled data at the lexical category level only
+RESULT(e1,e2)
+
+Using a supertagger to assign <e1>categories</e1> to <e2>words</e2>, trained on the new data, leads to a dramatic increase in question parsing accuracy.
+MODEL-FEATURE(e2,e1)
+
+This paper addresses <e1>syntax-based paraphrasing methods</e1> for <e2>Recognizing Textual Entailment &amp;&amp;lpar&amp;&amp;RTE&amp;&amp;rpar&amp;&amp;</e2>
+USAGE(e2,e1)
+
+In particular, we describe a <e1>dependency-based paraphrasing algorithm</e1>, using the <e2>DIRT data set</e2>, and its application in the context of a straightforward RTE system based on aligning dependency trees
+USAGE(e1,e2)
+
+The goal of the project is to provide a quantitative description of <e1>Polish preposition-pronoun contractions</e1> taking into consideration <e2>morphosyntactic properties</e2> of their components
+MODEL-FEATURE(e1,e2)
+
+The results of corpus-based investigations of the <e1>distribution</e1> of <e2>prepositions</e2> within preposition-pronoun contractions can be used for grammar-theoretical and lexicographic purposes.
+MODEL-FEATURE(e2,e1)
+
+This paper presents a new <e1>unsupervised algorithm</e1> (WordEnds) for inferring <e2>word boundaries</e2> from transcribed adult conversations
+USAGE(e2,e1)
+
+This fast <e1>algorithm</e1> delivers high <e2>performance</e2> even on morphologically complex words in English and Arabic, and promising results on accurate phonetic transcriptions with extensive pronunciation variation
+RESULT(e2,e1)
+
+This suggests that WordEnds is a viable <e1>model</e1> of child language acquisition and might be useful in <e2>speech understanding</e2>.
+USAGE(e2,e1)
+
+<e1>Speech-to-text summarization systems</e1> usually take as input the <e2>output</e2> of an automatic speech recognition &amp;&amp;lpar&amp;&amp;ASR&amp;&amp;rpar&amp;&amp; system that is affected by issues like speech recognition errors, disfluencies, or difficulties in the accurate identification of sentence boundaries
+USAGE(e1,e2)
+
+We propose the inclusion of related, solid background information to cope with the difficulties of summarizing spoken language and the use of <e1>multi-document summarization techniques</e1> in <e2>single document speech-to-text summarization</e2>
+USAGE(e2,e1)
+
+We present an improved method for <e1>automated word alignment</e1> of <e2>parallel texts</e2> which takes advantage of knowledge of syntactic divergences, while avoiding the need for syntactic analysis of the less resource rich language, and retaining the robustness of syntactically agnostic approaches such as the IBM word alignment models
+USAGE(e2,e1)
+
+We present an improved method for automated word alignment of parallel texts which takes advantage of knowledge of syntactic divergences, while avoiding the need for <e1>syntactic analysis</e1> of the <e2>less resource rich language</e2>, and retaining the robustness of syntactically agnostic approaches such as the IBM word alignment models
+TOPIC(e2,e1)
+
+We present an improved method for automated word alignment of parallel texts which takes advantage of knowledge of syntactic divergences, while avoiding the need for syntactic analysis of the less resource rich language, and retaining the <e1>robustness</e1> of <e2>syntactically agnostic approaches</e2> such as the IBM word alignment models
+MODEL-FEATURE(e2,e1)
+
+We achieve this by using simple, easily-elicited knowledge to produce <e1>syntax-based heuristics</e1> which transform the <e2>target language</e2> (e.g. English) into a form more closely resembling the source language, and then by using standard alignment methods to align the transformed bitext
+USAGE(e2,e1)
+
+The <e1>knowledge representation method</e1> is introduced to be applied in the <e2>ICAI system</e2> to teach programming language
+USAGE(e2,e1)
+
+The <e1>directed graph</e1> of <e2>concepts</e2> is mentioned as a method to represent an instructional structure of the domain knowledge
+MODEL-FEATURE(e2,e1)
+
+We consider the problem of extracting specified types of <e1>information</e1> from <e2>natural language text</e2>
+PART_WHOLE(e2,e1)
+
+We describe a specific <e1>information extraction task</e1>, and report on the benefits of using <e2>preference semantics</e2> for this task.
+USAGE(e1,e2)
+
+The studies were the result of <e1>semantic annotation</e1> of the <e2>corpus</e2> in this domain
+USAGE(e2,e1)
+
+We begin by explaining the criteria involved in the annotation process, not only for the colour categories but also for the colour groups created in order to do finer-grained analyses, presenting also some <e1>quantitative data</e1> regarding these <e2>categories</e2> and groups
+MODEL-FEATURE(e2,e1)
+
+We end by explaining how any user who wants to do serious studies using the corpus can collaborate in enhancing the <e1>corpus</e1> and making their <e2>semantic annotations</e2> widely available as well.
+MODEL-FEATURE(e1,e2)
+
+The processing tasks involved in reconstructing the <e1>temporal structure</e1> of a <e2>narrative</e2> ( Webber 's e/s structure) are formulated in terms of these two notions
+MODEL-FEATURE(e2,e1)
+
+The remainder of the paper analyzes the <e1>durational and aspectual knowledge</e1> needed for those <e2>tasks</e2>
+USAGE(e2,e1)
+
+In this paper we present a project which aims to standardise the format of a set of bilingual lexicons in order to make them available to potential users, to facilitate the exchange of data (among the resources and with other &amp;&amp;lpar&amp;&amp;monolingual&amp;&amp;rpar&amp;&amp; resources ) and to enable reuse of these <e1>lexicons</e1> for <e2>NLP applications</e2> like machine translation and multilingual information retrieval
+USAGE(e2,e1)
+
+After exploiting the <e1>linguistic discrepancy</e1> between numbered <e2>arguments</e2> and ARGMs, we built a semantic role classifier based on a hierarchical feature selection strategy
+MODEL-FEATURE(e2,e1)
+
+After exploiting the linguistic discrepancy between numbered arguments and ARGMs, we built a <e1>semantic role classifier</e1> based on a <e2>hierarchical feature selection strategy</e2>
+USAGE(e1,e2)
+
+In recent years <e1>tree kernels</e1> have been proposed for the <e2>automatic learning</e2> of natural language applications
+USAGE(e2,e1)
+
+In this paper, we show that <e1>tree kernels</e1> are very helpful in the <e2>processing of natural language</e2> as (a) we provide a simple algorithm to compute tree kernels in linear average running time and (b) our study on the classification properties of diverse tree kernels show that kernel combinations always improve the traditional methods
+USAGE(e2,e1)
+
+In this paper, we show that tree kernels are very helpful in the processing of natural language as (a) we provide a simple algorithm to compute tree kernels in linear average running time and (b) our study on the <e1>classification properties</e1> of diverse <e2>tree kernels</e2> show that kernel combinations always improve the traditional methods
+MODEL-FEATURE(e2,e1)
+
+Experiments with <e1>Support Vector Machines</e1> on the predicate <e2>argument classification task</e2> provide empirical support to our thesis.
+USAGE(e2,e1)
+
+This paper presents a study of <e1>military applications</e1> of advanced <e2>speech processing technology</e2> which includes three major elements: (1) review and assessment of current efforts in military applications of speech technology ; (2) identification of opportunities for future military applications of advanced speech technology ; and (3) identification of problem areas where research in speech processing is needed to meet application requirements, and of current research thrusts which appear promising
+USAGE(e1,e2)
+
+This paper presents a study of military applications of advanced speech processing technology which includes three major elements: (1) review and assessment of current efforts in <e1>military applications</e1> of <e2>speech technology</e2> ; (2) identification of opportunities for future military applications of advanced speech technology ; and (3) identification of problem areas where research in speech processing is needed to meet application requirements, and of current research thrusts which appear promising
+USAGE(e1,e2)
+
+This paper presents a study of military applications of advanced speech processing technology which includes three major elements: (1) review and assessment of current efforts in military applications of speech technology ; (2) identification of opportunities for future <e1>military applications</e1> of advanced <e2>speech technology</e2> ; and (3) identification of problem areas where research in speech processing is needed to meet application requirements, and of current research thrusts which appear promising
+USAGE(e1,e2)
+
+The relationship of this study to previous assessments of <e1>military applications</e1> of <e2>speech technology</e2> is discussed, and substantial recent progress is noted
+USAGE(e1,e2)
+
+Current efforts in <e1>military applications</e1> of <e2>speech technology</e2> which are highlighted include : (1) narrowband &amp;&amp;lpar&amp;&amp;2400 b/s&amp;&amp;rpar&amp;&amp; and very low-rate &amp;&amp;lpar&amp;&amp;50-1200 b/s&amp;&amp;rpar&amp;&amp; secure voice communication ; (2) voice/data integration in computer networks ; (3) speech recognition in fighter aircraft, military helicopters, battle management, and air traffic control training systems ; and (4) noise and interference removal for human listeners
+USAGE(e1,e2)
+
+The framework demonstrates a uniform approach to <e1>generation and transfer</e1> based on <e2>declarative lexico-structural transformations</e2> of dependency structures of syntactic or conceptual levels ("uniform lexico-structural processing ")
+USAGE(e1,e2)
+
+ <e1>Lexical co-occurrence statistics</e1> are becoming widely used in the <e2>syntactic analysis</e2> of unconstrained text
+USAGE(e2,e1)
+
+However, analyses based solely on lexical relationships suffer from <e1>sparseness</e1> of <e2>data</e2>: it is sometimes necessary to use a less informed model in order to reliably estimate statistical parameters
+MODEL-FEATURE(e2,e1)
+
+However, analyses based solely on lexical relationships suffer from sparseness of data: it is sometimes necessary to use a <e1>less informed model</e1> in order to reliably estimate <e2>statistical parameters</e2>
+USAGE(e2,e1)
+
+For example, the <e1>"lexical association"</e1> strategy for <e2>resolving ambiguous prepositional phrase attachments</e2> [Hindle and Rooth 1991] takes into account only the attachment site (a verb or its direct object ) and the preposition, ignoring the object of the preposition.We investigated an extension of the lexical association strategy to make use of noun class information, thus permitting a disambiguation strategy to take more information into account
+USAGE(e2,e1)
+
+For example, the "lexical association" strategy for resolving ambiguous prepositional phrase attachments [Hindle and Rooth 1991] takes into account only the attachment site (a verb or its direct object ) and the preposition, ignoring the object of the preposition.We investigated an extension of the lexical association strategy to make use of <e1>noun class information</e1>, thus permitting a <e2>disambiguation</e2> strategy to take more information into account
+USAGE(e2,e1)
+
+Although in preliminary experiments the extended strategy did not yield improved performance over lexical association alone, a <e1>qualitative analysis</e1> of <e2>results</e2> suggests that the problem lies not in the noun class information, but rather in the multiplicity of classes available for each noun in the absence of sense disambiguation
+TOPIC(e2,e1)
+
+Although in preliminary experiments the extended strategy did not yield improved performance over lexical association alone, a qualitative analysis of results suggests that the problem lies not in the noun class information, but rather in the <e1>multiplicity of classes</e1> available for each <e2>noun</e2> in the absence of sense disambiguation
+MODEL-FEATURE(e2,e1)
+
+This paper proposes an <e1>error-driven HMM-based text chunk tagger</e1> with <e2>context-dependent lexicon</e2>
+PART_WHOLE(e1,e2)
+
+Compared with standard HMM-based tagger, this <e1>tagger</e1> incorporates more <e2>contextual information</e2> into a lexical entry
+USAGE(e1,e2)
+
+Finally, <e1>memory-based learning</e1> is adopted to further improve the performance of the <e2>chunk tagger</e2>.
+USAGE(e2,e1)
+
+However, recent evaluations of a prototype prediction system showed that it significantly decreased the <e1>productivity</e1> of most <e2>translators</e2> who used it
+MODEL-FEATURE(e2,e1)
+
+In this paper, we analyze the reasons for this and propose a solution which consists in seeking <e1>predictions</e1> that maximize the <e2>expected benefit</e2> to the translator, rather than just trying to anticipate some amount of upcoming text
+RESULT(e2,e1)
+
+Using a model of a &#8220;typical translator&#8221; constructed from <e1>data</e1> collected in the evaluations of the <e2>prediction prototype</e2>, we show that this approach has the potential to turn text prediction into a help rather than a hindrance to a translator.
+PART_WHOLE(e2,e1)
+
+"We describe an experimental <e1>text-to-speech system</e1> that uses information about <e2>syntactic constituency</e2>, adjacency to a verb, and constituent length to determine prosodic phrasing for synthetic speech
+USAGE(e1,e2)
+
+Results so far indicate that the current system performs well when measured against a <e1>corpus</e1> of <e2>judgments of prosodic phrasing</e2>."
+PART_WHOLE(e1,e2)
+
+In this paper, we present an algorithm for extracting <e1>potential entries</e1> for a category from an <e2>on-line corpus</e2>, based upon a small set of exemplars
+PART_WHOLE(e2,e1)
+
+In this paper, we describe our experiments on statistical word sense disambiguation &amp;&amp;lpar&amp;&amp;WSD&amp;&amp;rpar&amp;&amp; using two systems based on different approaches : <e1>Naive Bayes</e1> on <e2>word tokens</e2> and Maximum Entropy on local syntactic and semantic features
+USAGE(e1,e2)
+
+In this paper, we describe our experiments on statistical word sense disambiguation &amp;&amp;lpar&amp;&amp;WSD&amp;&amp;rpar&amp;&amp; using two systems based on different approaches : Naive Bayes on word tokens and <e1>Maximum Entropy</e1> on <e2>local syntactic and semantic features</e2>
+USAGE(e1,e2)
+
+In the first approach, we consider a <e1>context window</e1> and a <e2>sub-window</e2> within it around the word to disambiguate
+PART_WHOLE(e1,e2)
+
+In the second system, <e1>sense resolution</e1> is done using an approximate <e2>syntactic structure</e2> as well as semantics of neighboring nouns as features to a Maximum Entropy learner
+USAGE(e1,e2)
+
+In the second system, sense resolution is done using an approximate syntactic structure as well as <e1>semantics</e1> of <e2>neighboring nouns</e2> as features to a Maximum Entropy learner
+MODEL-FEATURE(e2,e1)
+
+The Document Understanding Conference &amp;&amp;lpar&amp;&amp;DUC&amp;&amp;rpar&amp;&amp; 2005 evaluation had a single <e1>user-oriented, question-focused summarization task</e1>, which was to synthesize from a set of 25-50 <e2>documents</e2> a well-organized, fluent answer to a complex question
+USAGE(e2,e1)
+
+The evaluation shows that the best <e1>summarization systems</e1> have difficulty <e2>extracting relevant sentences</e2> in response to complex questions (as opposed to representative sentences that might be appropriate to a generic summary )
+USAGE(e2,e1)
+
+This paper presents two systems for <e1>textual entailment</e1>, both employing <e2>decision trees</e2> as a supervised learning algorithm
+USAGE(e1,e2)
+
+The first one is based primarily on the concept of lexical overlap, considering a <e1>bag of words similarity overlap measure</e1> to form a <e2>mapping</e2> of terms in the hypothesis to the source text
+USAGE(e2,e1)
+
+We contrast the <e1>MT condition</e1>, for both text and audio data types, with high quality <e2>human reference Gold Standard &amp;&amp;lpar&amp;&amp;GS&amp;&amp;rpar&amp;&amp; translations</e2>
+COMPARE(e2,e1)
+
+Overall, subjects achieved 95% comprehension for <e1>GS</e1> and 74% for <e2>MT</e2>, across 4 genres and 3 difficulty levels
+COMPARE(e2,e1)
+
+This paper describes a novel <e1>event-matching strategy</e1> using <e2>features</e2> obtained from the transitive closure of dependency relations
+USAGE(e1,e2)
+
+This paper describes a novel event-matching strategy using features obtained from the <e1>transitive closure</e1> of <e2>dependency relations</e2>
+USAGE(e2,e1)
+
+The method yields a <e1>model</e1> capable of <e2>matching events</e2> with an F-measure of 66.5%.
+USAGE(e2,e1)
+
+The objective of this paper is to demonstrate how an existing <e1>web application</e1> can be modified using <e2>VoiceXML</e2> to enable non-visual access from any phone
+USAGE(e1,e2)
+
+In order to elucidate the entire process, we present a sample <e1>Package Tracking System application</e1>, which is based on an existing <e2>website</e2> and provides the same functionality as the website does
+USAGE(e1,e2)
+
+This paper reports the development of <e1>log-linear models</e1> for the <e2>disambiguation in wide-coverage HPSG parsing</e2>
+USAGE(e2,e1)
+
+The estimation of <e1>log-linear models</e1> requires high <e2>computational cost</e2>, especially with wide-coverage grammars
+MODEL-FEATURE(e1,e2)
+
+A series of experiments empirically evaluated the estimation techniques, and also examined the performance of the <e1>disambiguation models</e1> on the <e2>parsing</e2> of real-world sentences.
+USAGE(e2,e1)
+
+ Text normalization is an important aspect of successful <e1>information retrieval</e1> from <e2>medical documents</e2> such as clinical notes, radiology reports and discharge summaries
+USAGE(e2,e1)
+
+In the medical domain, a significant part of the general problem of <e1>text normalization</e1> is <e2>abbreviation and acronym disambiguation</e2>
+PART_WHOLE(e1,e2)
+
+Numerous <e1>abbreviations</e1> are used routinely throughout such <e2>texts</e2> and knowing their meaning is critical to data retrieval from the document
+PART_WHOLE(e2,e1)
+
+Numerous abbreviations are used routinely throughout such texts and knowing their meaning is critical to <e1>data retrieval</e1> from the <e2>document</e2>
+USAGE(e2,e1)
+
+In this paper I will demonstrate a method of <e1>automatically generating training data</e1> for <e2>Maximum Entropy &amp;&amp;lpar&amp;&amp;ME&amp;&amp;rpar&amp;&amp; modeling</e2> of abbreviations and acronyms and will show that using ME modeling is a promising technique for abbreviation and acronym normalization
+USAGE(e2,e1)
+
+In this paper I will demonstrate a method of automatically generating training data for Maximum Entropy &amp;&amp;lpar&amp;&amp;ME&amp;&amp;rpar&amp;&amp; modeling of abbreviations and acronyms and will show that using <e1>ME modeling</e1> is a promising technique for <e2>abbreviation and acronym normalization</e2>
+USAGE(e2,e1)
+
+I report on the results of an experiment involving training a number of <e1>ME models</e1> used to normalize <e2>abbreviations</e2> and acronyms on a sample of 10,000 rheumatology notes with ~89% accuracy.
+USAGE(e2,e1)
+
+In this paper we describe the roots of Controlled English &amp;&amp;lpar&amp;&amp;CE&amp;&amp;rpar&amp;&amp;, the analysis of several existing CE grammars, the development of a well-founded 150-rule CE grammar &amp;&amp;lpar&amp;&amp;COGRAM&amp;&amp;rpar&amp;&amp;, the elaboration of an <e1>algorithmic variant &amp;&amp;lpar&amp;&amp;ALCOGRAM&amp;&amp;rpar&amp;&amp;</e1> as a basis for <e2>NLP applications</e2>, the use of ALCOGRAM in a CA1 program teaching writers how to use it effectively, and the preparatory study into a Controlled English grammar and style checker within a desktop publishing &amp;&amp;lpar&amp;&amp;DTP&amp;&amp;rpar&amp;&amp; environment.
+USAGE(e2,e1)
+
+In this paper we describe the roots of Controlled English &amp;&amp;lpar&amp;&amp;CE&amp;&amp;rpar&amp;&amp;, the analysis of several existing CE grammars, the development of a well-founded 150-rule CE grammar &amp;&amp;lpar&amp;&amp;COGRAM&amp;&amp;rpar&amp;&amp;, the elaboration of an algorithmic variant &amp;&amp;lpar&amp;&amp;ALCOGRAM&amp;&amp;rpar&amp;&amp; as a basis for NLP applications, the use of <e1>ALCOGRAM</e1> in a <e2>CA1 program</e2> teaching writers how to use it effectively, and the preparatory study into a Controlled English grammar and style checker within a desktop publishing &amp;&amp;lpar&amp;&amp;DTP&amp;&amp;rpar&amp;&amp; environment.
+USAGE(e2,e1)
+
+In this paper we describe the roots of Controlled English &amp;&amp;lpar&amp;&amp;CE&amp;&amp;rpar&amp;&amp;, the analysis of several existing CE grammars, the development of a well-founded 150-rule CE grammar &amp;&amp;lpar&amp;&amp;COGRAM&amp;&amp;rpar&amp;&amp;, the elaboration of an algorithmic variant &amp;&amp;lpar&amp;&amp;ALCOGRAM&amp;&amp;rpar&amp;&amp; as a basis for NLP applications, the use of ALCOGRAM in a CA1 program teaching writers how to use it effectively, and the preparatory study into a Controlled English grammar and <e1>style checker</e1> within a <e2>desktop publishing &amp;&amp;lpar&amp;&amp;DTP&amp;&amp;rpar&amp;&amp; environment</e2>.
+PART_WHOLE(e2,e1)
+
+We present a <e1>discriminative, latent variable approach</e1> to <e2>syntactic parsing</e2> in which rules exist at multiple scales of refinement
+USAGE(e2,e1)
+
+We present a discriminative, latent variable approach to syntactic parsing in which <e1>rules</e1> exist at multiple scales of <e2>refinement</e2>
+MODEL-FEATURE(e1,e2)
+
+The model is formally a <e1>latent variable CRF grammar</e1> over trees, learned by iteratively splitting <e2>grammar productions</e2> (not categories )
+USAGE(e1,e2)
+
+On a variety of domains and languages, this <e1>method</e1> produces the best published <e2>parsing accuracies</e2> with the smallest reported grammars.
+RESULT(e2,e1)
+
+This paper presents an extended GLR parsing algorithm with <e1>grammar PCFG*</e1> that is based on <e2>Tomita's GLR parsing algorithm</e2> and extends it further
+USAGE(e1,e2)
+
+We also define a new <e1>grammar PCFG*</e1> that is based on <e2>PCFG</e2> and assigns not only probability but also frequency associated with each rule
+USAGE(e1,e2)
+
+We also define a new grammar PCFG* that is based on PCFG and assigns not only probability but also <e1>frequency</e1> associated with each <e2>rule</e2>
+MODEL-FEATURE(e2,e1)
+
+So our <e1>syntactic parsing system</e1> is implemented based on <e2>rule-based approach</e2> and statistics approach
+USAGE(e1,e2)
+
+In this paper a method for <e1>controlling the dialog</e1> in a <e2>natural language &amp;&amp;lpar&amp;&amp;NL&amp;&amp;rpar&amp;&amp; system</e2> is presented
+PART_WHOLE(e2,e1)
+
+It provides a deep <e1>modeling</e1> of information processing based on <e2>time dependent propositional attitudes</e2> of the interacting agents
+USAGE(e1,e2)
+
+Knowledge about the <e1>state</e1> of the <e2>dialog</e2> is represented in a dedicated language and changes of this state are described by a compact set of rules
+MODEL-FEATURE(e2,e1)
+
+An appropriate organization of <e1>rule application</e1> is introduced including the <e2>initiation</e2> of an adequate system reaction
+PART_WHOLE(e1,e2)
+
+This paper reports the principles behind designing a <e1>tagset</e1> to cover <e2>Russian morphosyntactic phenomena</e2>, modifications of the core tagset, and its evaluation
+MODEL-FEATURE(e2,e1)
+
+The final <e1>tagset</e1> contains about 600 <e2>tags</e2> and achieves about 95% accuracy on the disambiguated portion of the Russian National Corpus
+PART_WHOLE(e1,e2)
+
+Within the framework of <e1>translation knowledge acquisition</e1> from <e2>WWW news sites</e2>, this paper studies issues on the effect of cross-language retrieval of relevant texts in bilingual lexicon acquisition from comparable corpora
+USAGE(e2,e1)
+
+Within the framework of translation knowledge acquisition from WWW news sites, this paper studies issues on the effect of cross-language retrieval of relevant <e1>texts</e1> in bilingual lexicon acquisition from <e2>comparable corpora</e2>
+PART_WHOLE(e2,e1)
+
+We experimentally show that it is quite effective to reduce the candidate bilingual term pairs against which bilingual term correspondences are estimated, in terms of both computational complexity and the performance of precise <e1>estimation</e1> of <e2>bilingual term correspondences</e2>.
+MODEL-FEATURE(e2,e1)
+
+We present an approach to building a <e1>test collection</e1> of <e2>research papers</e2>
+PART_WHOLE(e1,e2)
+
+The resultant <e1>test collection</e1> is different from TREC's in that it comprises <e2>scientific articles</e2> rather than newspaper text and, thus, allows for IR experiments that include citation information
+PART_WHOLE(e1,e2)
+
+The <e1>test collection</e1> currently consists of 170 <e2>queries</e2> with relevance judgements; the document collection is the ACL Anthology
+PART_WHOLE(e1,e2)
+
+This paper presents a model for generating <e1>prosodically appropriate synthesized responses</e1> to database queries using <e2>Combinatory Categorial Grammar</e2> (CCG - cf. [22]), a formalism which easily integrates the notions of syntactic constituency, prosodie phrasing and information structure
+USAGE(e1,e2)
+
+As part of our TIPSTER III research program, we have continued our research into strategies to resolve <e1>coreferences</e1> within a <e2>free text document</e2>; this research was begun during our TIPSTER II research program
+PART_WHOLE(e2,e1)
+
+It also has raised the importance of understanding the <e1>structure</e1> of a <e2>document</e2> in order to guide the coreference resolution process
+MODEL-FEATURE(e2,e1)
+
+We describe the design and implementation of the <e1>dialogue management module</e1> in a <e2>voice operated car-driver information system</e2>
+PART_WHOLE(e2,e1)
+
+In this paper, we show how these <e1>constraints</e1> influence the design and subsequent implementation of the <e2>Dialogue Manager module</e2>, and how the additional requirements fit in with the 7 commandments.
+RESULT(e2,e1)
+
+<e1>HMM-based models</e1> are developed for the <e2>alignment</e2> of words and phrases in bitext
+USAGE(e2,e1)
+
+We find that <e1>Chinese-English word alignment performance</e1> is comparable to that of <e2>IBM Model-4</e2> even over large training bitexts
+COMPARE(e2,e1)
+
+<e1>Phrase pairs</e1> extracted from <e2>word alignments</e2> generated under the model can also be used for phrase-based translation, and in Chinese to English and Arabic to English translation, performance is comparable to systems based on Model-4 alignments
+PART_WHOLE(e2,e1)
+
+Phrase pairs extracted from word alignments generated under the model can also be used for phrase-based translation, and in Chinese to English and Arabic to English translation, performance is comparable to <e1>systems</e1> based on <e2>Model-4 alignments</e2>
+USAGE(e1,e2)
+
+This paper proposed a new <e1>query translation method</e1> based on the <e2>mutual information matrices</e2> of terms in the Chinese and English corpora
+USAGE(e1,e2)
+
+A novel <e1>selection method</e1> for <e2>translations</e2> of query terms is also presented in detail
+USAGE(e2,e1)
+
+The evaluation results show that the <e1>retrieval performance</e1> achieved by our <e2>query translation method</e2> is about 73% of monolingual information retrieval and is about 28% higher than that of simple word-by-word translation way.
+RESULT(e1,e2)
+
+First, we describe a method of classifying facts (information) into categories or levels; where each <e1>level</e1> signifies a different <e2>degree of difficulty</e2> of extracting a fact from a piece of text containing it
+MODEL-FEATURE(e2,e1)
+
+First, we describe a method of classifying facts (information) into categories or levels; where each level signifies a different degree of difficulty of extracting a <e1>fact</e1> from a piece of <e2>text</e2> containing it
+PART_WHOLE(e2,e1)
+
+The two main factors that characterize a <e1>text</e1> are its content and its style, and both can be used as a means of <e2>categorization</e2>
+USAGE(e1,e2)
+
+In this paper we present an approach to <e1>text categorization</e1> in terms of <e2>genre</e2> and author for Modern Greek
+USAGE(e1,e2)
+
+To this end, we propose a set of <e1>style markers</e1> including <e2>analysis-level measures</e2> that represent the way in which the input text has been analyzed and capture useful stylistic information without additional cost
+PART_WHOLE(e1,e2)
+
+We present a set of small-scale but reasonable experiments in text genre detection, author identification, and author verification tasks and show that the <e1>proposed method</e1> performs better than the most popular <e2>distributional lexical measures</e2>, i.e., functions of vocabulary richness and frequencies of occurrence of the most frequent words
+COMPARE(e2,e1)
+
+We present a set of small-scale but reasonable experiments in text genre detection, author identification, and author verification tasks and show that the proposed method performs better than the most popular distributional lexical measures, i.e., functions of vocabulary richness and <e1>frequencies of occurrence</e1> of the most frequent <e2>words</e2>
+MODEL-FEATURE(e2,e1)
+
+All the presented experiments are based on <e1>unrestricted text</e1> downloaded from the <e2>World Wide Web</e2> without any manual text preprocessing or text sampling
+PART_WHOLE(e2,e1)
+
+Our <e1>system</e1> can be used in any <e2>application</e2> that requires fast and easily adaptable text categorization in terms of stylistically homogeneous categories
+USAGE(e2,e1)
+
+We first split a <e1>dataset</e1> consisting of pairs of <e2>sentences</e2> into clusters according to their similarities, and then construct a classifier for each cluster to identify equivalence relations
+PART_WHOLE(e1,e2)
+
+In this paper, we propose a new <e1>learning method</e1> to solve the <e2>sparse data problem</e2> in automatic extraction of bilingual word pairs from parallel corpora with various languages
+USAGE(e2,e1)
+
+In this paper, we propose a new learning method to solve the sparse data problem in automatic extraction of <e1>bilingual word pairs</e1> from <e2>parallel corpora</e2> with various languages
+PART_WHOLE(e2,e1)
+
+Our learning method automatically acquires <e1>rules</e1>, which are effective to solve the <e2>sparse data problem</e2>, only from parallel corpora without any bilingual resource (e.g., a bilingual dictionary, machine translation systems) beforehand
+USAGE(e2,e1)
+
+Using ICL, the recall in three <e1>systems</e1> based on <e2>similarity measures</e2> improved respectively 8.0, 6.1 and 6.0 percentage points
+USAGE(e1,e2)
+
+<e1>NLP systems</e1> for tasks such as question answering and information extraction typically rely on <e2>statistical parsers</e2>
+USAGE(e1,e2)
+
+But the efficacy of such parsers can be surprisingly low, particularly for <e1>sentences</e1> drawn from <e2>heterogeneous corpora</e2> such as the Web
+PART_WHOLE(e2,e1)
+
+We have observed that incorrect parses often result in wildly implausible <e1>semantic interpretations</e1> of <e2>sentences</e2>, which can be detected automatically using semantic information obtained from the Web
+MODEL-FEATURE(e2,e1)
+
+We have observed that incorrect parses often result in wildly implausible semantic interpretations of sentences, which can be detected automatically using <e1>semantic information</e1> obtained from the <e2>Web</e2>
+PART_WHOLE(e2,e1)
+
+We demonstrate that a previously defined <e1>formal algebra</e1> applies to <e2>grammar engineering</e2> across a much greater range of frameworks than was originally envisaged
+USAGE(e2,e1)
+
+We show how this algebra can be adapted to composition in grammar frameworks where a lexicon is not assumed, and how this underlies a practical implementation of <e1>semantic construction</e1> for the <e2>RASP system</e2>.
+USAGE(e2,e1)
+
+We explore the use of <e1>Wikipedia</e1> as external knowledge to improve <e2>named entity recognition &amp;&amp;lpar&amp;&amp;NER&amp;&amp;rpar&amp;&amp;</e2>
+USAGE(e2,e1)
+
+Our method retrieves the corresponding Wikipedia entry for each candidate word sequence and extracts a <e1>category label</e1> from the first <e2>sentence</e2> of the entry, which can be thought of as a definition part
+PART_WHOLE(e2,e1)
+
+These category labels are used as <e1>features</e1> in a <e2>CRF-based NE tagger</e2>
+USAGE(e2,e1)
+
+We argue here that some of the criticism aimed at HMM performance on languages with rich morphology should more properly be directed at TnT's peculiar license, free but not open source, since it is those details of the implementation which are hidden from the user that hold the key for improved <e1>POS tagging</e1> across a wider variety of <e2>languages</e2>
+USAGE(e2,e1)
+
+We present a novel approach to <e1>word reordering</e1> which successfully integrates <e2>syntactic structural knowledge</e2> with phrase-based SMT
+USAGE(e1,e2)
+
+This is done by constructing a <e1>lattice of alternatives</e1> based on automatically learned <e2>probabilistic syntactic rules</e2>
+USAGE(e1,e2)
+
+In decoding, the <e1>alternatives</e1> are scored based on the <e2>output word order</e2>, not the order of the input
+MODEL-FEATURE(e1,e2)
+
+Manual evaluation supports the claim that the present <e1>approach</e1> is significantly superior to previous <e2>approaches</e2>.
+COMPARE(e2,e1)
+
+Most of the previous <e1>Korean noun extraction systems</e1> use a <e2>morphological analyzer</e2> or a Part-of- Speech &amp;&amp;lpar&amp;&amp;POS&amp;&amp;rpar&amp;&amp; tagger
+USAGE(e1,e2)
+
+This paper proposes a new <e1>noun extraction method</e1> that uses the <e2>syllable based word recognition model</e2>
+USAGE(e1,e2)
+
+It finds the most probable <e1>syllable-tag sequence</e1> of the <e2>input sentence</e2> by using automatically acquired statistical information from the POS tagged corpus and extracts nouns by detecting word boundaries
+MODEL-FEATURE(e2,e1)
+
+It finds the most probable syllable-tag sequence of the input sentence by using <e1>automatically acquired statistical information</e1> from the <e2>POS tagged corpus</e2> and extracts nouns by detecting word boundaries
+PART_WHOLE(e2,e1)
+
+The experimental results show that without morphological analysis or POS tagging, the <e1>proposed method</e1> achieves comparable <e2>performance</e2> with the previous methods.
+RESULT(e2,e1)
+
+This paper proposes an approach to improve <e1>word alignment</e1> for <e2>languages with scarce resources</e2> using bilingual corpora of other language pairs
+USAGE(e2,e1)
+
+Based on these two additional corpora and with L3 as the pivot language, we build a <e1>word alignment model</e1> for <e2>L1 and L2</e2>
+USAGE(e2,e1)
+
+This approach can build a <e1>word alignment model</e1> for two <e2>languages</e2> even if no bilingual corpus is available in this language pair
+USAGE(e2,e1)
+
+In addition, we build another <e1>word alignment model</e1> for L1 and L2 using the small <e2>L1-L2 bilingual corpus</e2>
+USAGE(e1,e2)
+
+This paper provides an approach to the semi-automatic extraction of <e1>collocations</e1> from <e2>corpora</e2> using statistics
+PART_WHOLE(e2,e1)
+
+In this paper, we address the problem of <e1>nested collocations</e1>; that is, those being part of longer <e2>collocations</e2>
+PART_WHOLE(e2,e1)
+
+Most approaches till now, treated substring of collocations as <e1>collocations</e1> only if they appeared frequently enough by themselves in the <e2>corpus</e2>
+PART_WHOLE(e2,e1)
+
+Surprisingly, students had <e1>initiative</e1> more of the time in the <e2>didactic dialogues</e2> (21% of the turns) than in the Socratic dialogues (10% of the turns), and there was no direct relationship between student initiative and learning
+MODEL-FEATURE(e2,e1)
+
+However, <e1>Socratic dialogues</e1> were more interactive than <e2>didactic dialogues</e2> as measured by percentage of tutor utterances that were questions and percentage of words in the dialogue uttered by the student, and interactivity had a positive correlation with learning.
+COMPARE(e2,e1)
+
+We present several <e1>statistical models</e1> of <e2>syntactic constituent order</e2> for sentence realization
+MODEL-FEATURE(e2,e1)
+
+We compare several models, including simple <e1>joint models</e1> inspired by existing statistical parsing models, and several novel <e2>conditional models</e2>
+COMPARE(e2,e1)
+
+We employ a version of that <e1>model</e1> in an evaluation on <e2>unordered trees</e2> from the Penn TreeBank
+USAGE(e2,e1)
+
+A system would accomplish <e1>speech reconstruction</e1> of its <e2>spontaneous speech input</e2> if its output were to represent, in flawless, fluent, and content-preserving English, the message that the speaker intended to convey
+USAGE(e2,e1)
+
+These cleaner speech transcripts would allow for more accurate language processing as needed for NLP tasks such as machine translation and <e1>conversation summarization</e1>, which often rely on <e2>grammatical input</e2>
+USAGE(e1,e2)
+
+This small <e1>corpus</e1> of <e2>reconstructed and aligned conversational telephone speech transcriptions</e2> for the Fisher conversational telephone speech corpus ( Strassel and Walker, 2004 ) was annotated on several levels including string transformations and predicate-argument structure, and will be shared with the linguistic research community.
+PART_WHOLE(e1,e2)
+
+The <e1>corpus</e1> contains <e2>recordings</e2> of approximately 77 hours of broadcast news shows from the Norwegian broadcasting company NRK
+PART_WHOLE(e1,e2)
+
+The <e1>corpus</e1> covers both <e2>read and spontaneous speech</e2> as well as spontaneous dialogues and multipart discussions, including frequent occurrences of non-speech material (e.g. music, jingles)
+PART_WHOLE(e1,e2)
+
+The <e1>RUNDKAST corpus</e1> is planned to be included in a future national <e2>Norwegian language resource bank</e2>.
+PART_WHOLE(e2,e1)
+
+<e1>Statistical measures</e1> of <e2>word similarity</e2> have application in many areas of natural language processing, such as language modeling and information retrieval
+MODEL-FEATURE(e2,e1)
+
+Our frequency estimates are generated from a terabyte-sized <e1>corpus</e1> of <e2>Web data</e2>, and we study the impact of corpus size on the effectiveness of the measures
+PART_WHOLE(e1,e2)
+
+Our frequency estimates are generated from a terabyte-sized corpus of Web data, and we study the impact of <e1>corpus size</e1> on the effectiveness of the <e2>measures</e2>
+RESULT(e2,e1)
+
+We base the evaluation on one TOEFL question set and two <e1>practice questions sets</e1>, each consisting of a number of <e2>multiple choice questions</e2> seeking the best synonym for a given target word
+PART_WHOLE(e1,e2)
+
+The <e1>stack decoder</e1> is an attractive algorithm for controlling the <e2>acoustic and language model</e2> matching in a continuous speech recognizer
+USAGE(e2,e1)
+
+A previous paper described a near-optimal admissible <e1>Viterbi A* search algorithm</e1> for use with <e2>non-cross-word acoustic models</e2> and no-grammar language models [16]
+USAGE(e1,e2)
+
+In addition, we make a proposal for organising <e1>intermodule communication</e1> in an <e2>NLG system</e2> by having a central server for this information
+USAGE(e1,e2)
+
+This paper describes a sense tagging technique for the <e1>automatic sense tagging</e1> of <e2>running Chinese text</e2>
+USAGE(e2,e1)
+
+Whereas previous work (Yarowsky, 1992; Gale et al., 1992, 1993) relies heavily on the role of statistics, the present system makes use of Machine Readable/Tractable Dictionaries (Wilks et al., 1990; Guo, in press) and an example-based reasoning technique (Nagao, 1984; Sumita et al., 1990) to treat novel words, compound words, and <e1>phrases</e1> found in the <e2>input text</e2>.
+PART_WHOLE(e2,e1)
+
+A <e1>syntactic description</e1> is autonomous in the sense that it has certain explicit <e2>formal properties</e2>
+MODEL-FEATURE(e1,e2)
+
+Such a description relates to the <e1>semantic interpretation</e1> of the <e2>sentences</e2>, and to the surface text
+MODEL-FEATURE(e2,e1)
+
+As the <e1>formalism</e1> is implemented in a <e2>broad-coverage syntactic parser</e2>, we concentrate on issues that must be resolved by any practical system that uses such models
+USAGE(e2,e1)
+
+We present the algorithm and a systematic evaluation of a system which can recognize the most salient textual properties that contribute to the global <e1>argumentative structure</e1> of a <e2>text</e2>
+MODEL-FEATURE(e2,e1)
+
+RE operates either interactively, allowing <e1>word-by-word evaluation</e1> of <e2>hypothesized sound changes</e2> and semantic shifts, or in a "batch" mode, processing entire multilingual lexicons
+USAGE(e2,e1)
+
+We describe the algorithms implemented in RE, specifically the parsing and <e1>combinatorial techniques</e1> used to make <e2>projections</e2> upstream or downstream in the sense of time, the procedures for creating and consolidating cognate sets based on these projections, and the ad hoc techniques developed for handling the semantic component of the comparative method
+USAGE(e2,e1)
+
+We describe the algorithms implemented in RE, specifically the parsing and combinatorial techniques used to make projections upstream or downstream in the sense of time, the procedures for creating and consolidating <e1>cognate sets</e1> based on these <e2>projections</e2>, and the ad hoc techniques developed for handling the semantic component of the comparative method
+USAGE(e1,e2)
+
+We describe the algorithms implemented in RE, specifically the parsing and combinatorial techniques used to make projections upstream or downstream in the sense of time, the procedures for creating and consolidating cognate sets based on these projections, and the ad hoc techniques developed for handling the <e1>semantic component</e1> of the <e2>comparative method</e2>
+PART_WHOLE(e2,e1)
+
+Finally, we discuss features of RE that make it possible to handle the complex and sometimes imprecise <e1>representations</e1> of <e2>lexical items</e2>, and speculate on possible directions for future research.
+MODEL-FEATURE(e2,e1)
+
+In this paper, we present a <e1>chunk based partial parsing system</e1> for <e2>spontaneous, conversational speech</e2> in unrestricted domains
+USAGE(e2,e1)
+
+The input for the system is <e1>N-best lists</e1> generated from <e2>speech recognizer lattices</e2>
+USAGE(e1,e2)
+
+The hypotheses from the N-best lists are tagged for part of speech, "cleaned up" by a preprocessing pipe, parsed by a part of speech based chunk parser, and rescored using a <e1>backpropagation neural net</e1> trained on the <e2>chunk based scores</e2>
+USAGE(e1,e2)
+
+In this paper, we study how to generate <e1>features</e1> from various <e2>data representations</e2>, such as surface texts and parse trees, for answer extraction
+PART_WHOLE(e2,e1)
+
+Besides the <e1>features</e1>generated from the <e2>surface texts</e2>, we mainly discuss the feature generation in the parse trees
+PART_WHOLE(e2,e1)
+
+We propose and compare three methods, including feature vector, string kernel and tree kernel, to represent the <e1>syntactic features</e1> in <e2>Support Vector Machines</e2>
+USAGE(e2,e1)
+
+The experiment on the TREC question answering task shows that the <e1>features</e1> generated from the more structured <e2>data representations</e2> significantly improve the performance based on the features generated from the surface texts
+PART_WHOLE(e2,e1)
+
+The experiment on the TREC question answering task shows that the features generated from the more structured data representations significantly improve the performance based on the <e1>features</e1> generated from the <e2>surface texts</e2>
+PART_WHOLE(e2,e1)
+
+In this paper, we explore the use of structured content as <e1>semantic constraints</e1> for enhancing the performance of traditional <e2>term-based document retrieval</e2> in special domains
+USAGE(e2,e1)
+
+First, we describe a method for automatic extraction of <e1>semantic content</e1> in the form of <e2>attribute-value &amp;&amp;lpar&amp;&amp;AV&amp;&amp;rpar&amp;&amp; pairs</e2> from natural language texts based on domain modelsconstructed from a semi-structured web resource
+MODEL-FEATURE(e1,e2)
+
+First, we describe a method for automatic extraction of semantic content in the form of attribute-value &amp;&amp;lpar&amp;&amp;AV&amp;&amp;rpar&amp;&amp; pairs from natural language texts based on <e1>domain models</e1>constructed from a <e2>semi-structured web resource</e2>
+PART_WHOLE(e2,e1)
+
+Then, we explore the effect of combining a state-of-the-art term-based IR system and a simple <e1>constraint-based search system</e1> that uses the extracted <e2>AV pairs</e2>
+USAGE(e1,e2)
+
+Our evaluation results have shown that such combination produces some improvement in <e1>IR performance</e1> over the <e2>term-based IR system</e2> on our test collection.
+COMPARE(e2,e1)
+
+These <e1>networks</e1> are induced from <e2>treebanks</e2>: their vertices denote word forms which occur as nuclei of dependency trees
+PART_WHOLE(e2,e1)
+
+These networks are induced from treebanks: their <e1>vertices</e1> denote <e2>word forms</e2> which occur as nuclei of dependency trees
+MODEL-FEATURE(e2,e1)
+
+Their edges connect pairs of vertices if at least two instance nuclei of these vertices are linked in the <e1>dependency structure</e1> of a <e2>sentence</e2>
+MODEL-FEATURE(e2,e1)
+
+We examine the <e1>syntactic dependency networks</e1> of seven <e2>languages</e2>
+MODEL-FEATURE(e2,e1)
+
+Secondly, the <e1>mean clustering</e1> of <e2>vertices</e2> decreases with their degree - this finding suggests the presence of a hierarchical network organization
+MODEL-FEATURE(e2,e1)
+
+Thirdly, the <e1>mean degree</e1> of the <e2>nearest neighbors</e2> of a vertex x tends to decrease as the degree of x grows - this finding indicates disassortative mixing in the sense that links tend to connect vertices of dissimilar degrees
+MODEL-FEATURE(e2,e1)
+
+<e1>Dependency-based representations</e1> of <e2>natural language syntax</e2> require a fine balance between structural flexibility and computational complexity
+MODEL-FEATURE(e2,e1)
+
+Most constraints are formulated on fully specified structures, which makes them hard to integrate into models where <e1>structures</e1> are composed from <e2>lexical information</e2>
+USAGE(e1,e2)
+
+We show that <e1>morphological decomposition</e1> of the <e2>Arabic</e2> source is beneficial, especially for smaller-size corpora, and investigate different recombination techniques
+USAGE(e2,e1)
+
+We also report on the use of <e1>Factored Translation Models</e1> for <e2>English-to-Arabic translation</e2>.
+USAGE(e2,e1)
+
+The first algorithm uses machine learning methods to identify the semantic dependencies in four stages: identification and <e1>labeling</e1> of <e2>predicates</e2>, identification and labeling of arguments
+USAGE(e2,e1)
+
+The first algorithm uses machine learning methods to identify the semantic dependencies in four stages: identification and labeling of predicates, identification and <e1>labeling</e1> of <e2>arguments</e2>
+USAGE(e2,e1)
+
+A <e1>hybrid algorithm</e1> combining the best stages of the two algorithms attains 86.62% <e2>labeled syntactic attachment accuracy</e2>, 73.24% labeled semantic dependency F1 and 79.93% labeled macro Fl score for the combined WSJ and Brown test sets.
+RESULT(e2,e1)
+
+This paper presents experiments into modelling the <e1>substitutability</e1> of <e2>discourse connectives</e2>
+MODEL-FEATURE(e2,e1)
+
+A new Theory of Names and Descriptions that offers a uniform treatment for many types of <e1>non-singular concepts</e1> found in <e2>natural language discourse</e2> is presented
+PART_WHOLE(e2,e1)
+
+This paper proposes a novel, <e1>corpus-based method</e1> for producing <e2>mappings</e2> between lexical resources
+USAGE(e2,e1)
+
+We propose a novel method to predict the <e1>inter-paragraph discourse structure</e1> of <e2>text</e2>, i.e. to infer which paragraphs are related to each other and form larger segments on a higher level
+MODEL-FEATURE(e2,e1)
+
+Our method combines a clustering algorithm with a <e1>model</e1> of <e2>segment "relatedness"</e2> acquired in a machine learning step
+MODEL-FEATURE(e2,e1)
+
+It improves on other recent analyses in the computational linguistics literature in three respects: (i) it uses no <e1>tree- or logical-form rewriting devices</e1> in building <e2>meaning representations</e2> (ii) this results in a fully reversible linguistic description, equally suited for analysis or generation (iii) the analysis extends to types of elliptical comparative not elsewhere treated.
+USAGE(e2,e1)
+
+In contrast to earlier dialectology, we seek a comprehensive characterization of (potentially gradual) differences between dialects, rather than a geographic delineation of <e1>&amp;&amp;lpar&amp;&amp;discrete&amp;&amp;rpar&amp;&amp; features</e1> of <e2>individual words</e2> or pronunciations
+MODEL-FEATURE(e2,e1)
+
+We measure <e1>phonetic &amp;&amp;lpar&amp;&amp;un&amp;&amp;rpar&amp;&amp;relatedness</e1> between dialects using <e2>Levenshtein distance</e2>, and classify by clustering distances but also by analysis through multidimensional scaling.
+USAGE(e1,e2)
+
+Experimental results using a threaded discussion corpus from an undergraduate class show that it achieves significant <e1>performance improvements</e1> compared with the <e2>baseline system</e2>.
+COMPARE(e2,e1)
+
+A method of <e1>anaphoral resolution</e1> of zero pronouns in <e2>Japanese language texts</e2> using the verbal semantic attributes is suggested
+USAGE(e2,e1)
+
+This method focuses attention on the <e1>semantic attributes</e1> of <e2>verbs</e2> and examines the context from the relationship between the semantic attributes of verbs governing zero pronouns and the semantic attributes of verbs governing their referents
+MODEL-FEATURE(e2,e1)
+
+This method focuses attention on the semantic attributes of verbs and examines the context from the relationship between the <e1>semantic attributes</e1> of <e2>verbs</e2> governing zero pronouns and the semantic attributes of verbs governing their referents
+MODEL-FEATURE(e2,e1)
+
+This method focuses attention on the semantic attributes of verbs and examines the context from the relationship between the semantic attributes of verbs governing zero pronouns and the <e1>semantic attributes</e1> of <e2>verbs</e2> governing their referents
+MODEL-FEATURE(e2,e1)
+
+The <e1>semantic attributes</e1> of <e2>verbs</e2> are created using 2 different viewpoints: dynamic characteristics of verbs and the relationship of verbs to cases
+MODEL-FEATURE(e2,e1)
+
+The semantic attributes of verbs are created using 2 different viewpoints: <e1>dynamic characteristics</e1> of <e2>verbs</e2> and the relationship of verbs to cases
+MODEL-FEATURE(e2,e1)
+
+By using this method, it is shown that, in the case of translating newspaper articles, the major portion (93%) of <e1>anaphoral resolution</e1> of zero pronouns necessary for machine translation can be achieved by using only <e2>linguistic knowledge</e2>.Factors to be given special attention when incorporating this method into a machine translation system are examined, together with suggested conditions for the detection of zero pronouns and methods for their conversion
+USAGE(e1,e2)
+
+Implementation of the proposed method with due consideration of these points leads to a viable method for <e1>anaphoral resolution</e1> of zero pronouns in a practical <e2>machine translation system</e2>.
+USAGE(e2,e1)
+
+The primary objective of this project is to develop a robust, <e1>high-performance parser</e1> for <e2>English</e2> by automatically extracting a grammar from an annotated corpus of bracketed sentences, called the Treebank
+USAGE(e2,e1)
+
+The primary objective of this project is to develop a robust, high-performance parser for English by automatically extracting a <e1>grammar</e1> from an <e2>annotated corpus</e2> of bracketed sentences, called the Treebank
+PART_WHOLE(e2,e1)
+
+The <e1>test collection</e1> consists of over 1 million <e2>documents</e2> from diverse full-text sources, 250 topics, and the set of relevant documents or "right answers" to those topics
+PART_WHOLE(e1,e2)
+
+The results from <e1>TREC-2</e1> showed significant improvements over the <e2>TREC-1 results</e2>, and should be viewed as the appropriate baseline representing state-of-the-art retrieval techniques as scaled up to handling a 2 gigabyte collection
+COMPARE(e2,e1)
+
+In this paper we outline a lexical organization for Turkish that makes use of <e1>lexical rules</e1> for <e2>inflections</e2>, derivations, and lexical category changes to control the proliferation of lexical entries
+USAGE(e2,e1)
+
+A <e1>lexical inheritance hierarchy</e1> facilitates the enforcement of <e2>type constraints</e2>
+USAGE(e2,e1)
+
+<e1>Semantic compositions </e1> in <e2>inflections</e2> and derivations are constrained by the properties of the terms and predicates.The design has been tested as part of a HPSG grammar for Turkish
+MODEL-FEATURE(e2,e1)
+
+The <e1>bigram language models</e1> are popular, in much <e2>language processing applications</e2>, in both Indo-European and Asian languages
+USAGE(e2,e1)
+
+However, when the <e1>language model</e1> for Chinese is applied in a novel <e2>domain</e2>, the accuracy is reduced significantly, from 96% to 78% in our evaluation
+USAGE(e2,e1)
+
+In our evaluation, <e1>Bayesian classifiers</e1> produce the best <e2>recall performance</e2> of 80% but the precision is low (60%)
+RESULT(e2,e1)
+
+<e1>Neural network</e1> produced good <e2>recall</e2> (75%) and precision (80%) but both Bayesian and Neural network have low skip ratio (65%)
+RESULT(e2,e1)
+
+The <e1>decision tree classifier</e1> produced the best <e2>precision</e2> (81%) and skip ratio (76%) but its recall is the lowest (73%).
+RESULT(e2,e1)
+
+Tokenization is the process of <e1>mapping sentences</e1> from <e2>character strings</e2> into strings of words
+USAGE(e2,e1)
+
+This paper reports our empirical evaluation and comparison of several popular <e1>goodness measures</e1> for <e2>unsupervised segmentation</e2> of Chinese texts using Bakeoff-3 data sets with a unified framework
+USAGE(e2,e1)
+
+Assuming no prior knowledge about Chinese, this framework relies on a goodness measure to identify <e1>word candidates</e1> from <e2>unlabeled texts</e2> and then applies a generalized decoding algorithm to find the optimal segmentation of a sentence into such candidates with the greatest sum of goodness scores
+PART_WHOLE(e2,e1)
+
+Assuming no prior knowledge about Chinese, this framework relies on a goodness measure to identify word candidates from unlabeled texts and then applies a generalized <e1>decoding algorithm</e1> to find the optimal <e2>segmentation</e2> of a sentence into such candidates with the greatest sum of goodness scores
+USAGE(e2,e1)
+
+Assuming no prior knowledge about Chinese, this framework relies on a goodness measure to identify word candidates from unlabeled texts and then applies a generalized decoding algorithm to find the optimal segmentation of a sentence into such <e1>candidates</e1> with the greatest sum of <e2>goodness scores</e2>
+MODEL-FEATURE(e1,e2)
+
+Building on a state-of-the-art set of features, a binary classifier for each label is trained using <e1>AdaBoost</e1> with fixed depth <e2>decision trees</e2>
+USAGE(e1,e2)
+
+In this paper we propose two <e1>metrics</e1> to be used in various fields of <e2>computational linguistics</e2> area
+USAGE(e2,e1)
+
+Finally, a short application is presented: we investigate the <e1>similarity</e1> of Romance languages by computing the <e2>scaled total rank distance</e2> between the digram rankings of each language.
+USAGE(e1,e2)
+
+First, we formalize the task of identifying <e1>Japanese compound functional expressions</e1> in a <e2>text</e2> as a machine learning based chunking problem
+PART_WHOLE(e2,e1)
+
+Next, against the results of identifying compound functional expressions, we apply the method of <e1>dependency analysis</e1> based on the <e2>cascaded chunking model</e2>
+USAGE(e1,e2)
+
+We introduce a <e1>relation extraction method</e1> to identify the sentences in <e2>biomedical text</e2> that indicate an interaction among the protein names mentioned
+USAGE(e2,e1)
+
+Our approach is based on the analysis of the paths between two protein names in the <e1>dependency parse trees</e1> of the <e2>sentences</e2>
+MODEL-FEATURE(e2,e1)
+
+Given two dependency trees, we define two separate <e1>similarity functions &amp;&amp;lpar&amp;&amp;kernels&amp;&amp;rpar&amp;&amp;</e1> based on <e2>cosine similarity</e2> and edit distance among the paths between the protein names
+USAGE(e1,e2)
+
+<e1>Semi-supervised algorithms</e1> perform better than their supervised version by a wide margin especially when the amount of <e2>labeled data</e2> is limited.
+USAGE(e2,e1)
+
+<e1>Language model &amp;&amp;lpar&amp;&amp;LM&amp;&amp;rpar&amp;&amp; adaptation</e1> is important for both <e2>speech and language processing</e2>
+USAGE(e2,e1)
+
+In addition, a new dynamically adapted <e1>weighting scheme</e1> for topic mixture models is proposed based on <e2>LDA topic analysis</e2>
+USAGE(e1,e2)
+
+Our experimental results show that the <e1>NE-driven LM adaptation</e1> framework outperforms the baseline generic <e2>LM</e2>
+COMPARE(e2,e1)
+
+The state-of-the-art system <e1>combination method</e1> for <e2>machine translation &amp;&amp;lpar&amp;&amp;MT&amp;&amp;rpar&amp;&amp;</e2> is the word-based combination using confusion networks
+USAGE(e2,e1)
+
+The state-of-the-art system combination method for machine translation &amp;&amp;lpar&amp;&amp;MT&amp;&amp;rpar&amp;&amp; is the <e1>word-based combination</e1> using <e2>confusion networks</e2>
+USAGE(e1,e2)
+
+In this paper, we present new methods to improve <e1>alignment</e1> of hypotheses using <e2>word synonyms</e2> and a two-pass alignment strategy
+USAGE(e1,e2)
+
+We present a novel method for creating <e1>A* estimates</e1> for <e2>structured search problems</e2>
+USAGE(e2,e1)
+
+The <e1>DPA algorithm</e1> works on the <e2>assumption of Direct Correspondence</e2> which simply means
+that the relation between two words of the source language sentence can be projected directly between the corresponding words of the parallel target language sentence
+USAGE(e1,e2)
+
+This leads to wrong <e1>parsed structure </e1>of the <e2>target language sentence</e2>
+MODEL-FEATURE(e2,e1)
+
+A parser is an algorithm that assigns a <e1>structural description</e1> to a <e2>string</e2> according to a grammar
+MODEL-FEATURE(e2,e1)
+
+Common <e1>parsers</e1> employ <e2>phrase structure descriptions</e2>, rule-based grammars, and derivation or transition oriented recognition
+USAGE(e1,e2)
+
+The grammar is lexicalized, i.e. the <e1>syntactical relationships</e1> are stated as part of the <e2>lexical descriptions</e2> of the elements of the language
+PART_WHOLE(e2,e1)
+
+We are going to describe the design and implementation of a <e1>communication system</e1> for large <e2>AI</e2> projects, capable of supporting various software components in a heterogeneous hardware and programming-language environment
+USAGE(e2,e1)
+
+We present some preliminary results of a <e1>Czech-English translation system</e1> based on <e2>dependency trees</e2>
+USAGE(e1,e2)
+
+The fully automated process includes: morphological tagging, analytical and tectogrammatical parsing of Czech, tectogrammatical transfer based on <e1>lexical substitution</e1> using <e2>word-to-word translation dictionaries</e2> enhanced by the information from the English-Czech parallel corpus of WSJ, and a simple rule-based system for generation from English tectogrammatical representation
+USAGE(e1,e2)
+
+The fully automated process includes: morphological tagging, analytical and tectogrammatical parsing of Czech, tectogrammatical transfer based on lexical substitution using word-to-word translation dictionaries enhanced by the information from the English-Czech parallel corpus of WSJ, and a simple <e1>rule-based system</e1> for <e2>generation</e2> from English tectogrammatical representation
+USAGE(e2,e1)
+
+ADOMIT is an algorithm for <e1>Automatic Detection</e1> of OMIssions in <e2>Translations</e2>
+USAGE(e2,e1)
+
+The algorithm relies solely on <e1>geometric analysis</e1> of <e2>bitext maps</e2> and uses no linguistic information
+TOPIC(e2,e1)
+
+In the end, the aim is to locate all eventualities in a text on a time axis and/or a map to ensure an <e1>optimal base</e1> for <e2>automatic temporal and geospatial reasoning</e2>
+USAGE(e2,e1)
+
+The world knowledge MiniSTEx uses is contained in <e1>interconnected tables</e1> in a <e2>database</e2>
+PART_WHOLE(e2,e1)
+
+We propose a <e1>semantic construction method</e1> for Feature-Based Tree Adjoining Grammar which is based on the <e2>derived tree</e2>, compare it with related proposals and briefly discuss some implementation possibilities.
+USAGE(e1,e2)
+
+Traditional approaches to the problem of extracting <e1>data</e1> from <e2>texts</e2> have emphasized handcrafted linguistic knowledge
+PART_WHOLE(e2,e1)
+
+We have previously performed experiments on components of the system with <e1>texts</e1> from the <e2>Wall Street Journal</e2>, however, the MUC-3 task is the first end-to-end application of plum
+PART_WHOLE(e2,e1)
+
+A central assumption of our approach is that in processing <e1>unrestricted text</e1> for <e2>data extraction</e2>, a non-trivial amount of the text will not be understood
+USAGE(e1,e2)
+
+We present a novel sentence reduction system for automatically removing extraneous phrases from <e1>sentences</e1> that are extracted from a <e2>document</e2> for summarization purpose
+PART_WHOLE(e2,e1)
+
+The system uses multiple sources of knowledge to decide which phrases in an extracted sentence can be removed, including syntactic knowledge, context information, and <e1>statistics</e1> computed from a <e2>corpus</e2> which consists of examples written by human professionals
+PART_WHOLE(e2,e1)
+
+Reduction can significantly improve the <e1>conciseness</e1> of <e2>automatic summaries</e2>.
+MODEL-FEATURE(e2,e1)
+
+The method is automatically trainable, acquiring <e1>information</e1> from both <e2>positive and negative examples</e2>
+PART_WHOLE(e2,e1)
+
+This paper introduces an algorithm for automatically acquiring the <e1>conceptual structure</e1> of each <e2>word</e2> from corpus
+MODEL-FEATURE(e2,e1)
+
+The <e1>lexical concept</e1> obtained from the <e2>Collocation Map</e2> best reflects the subdomain of language usage
+PART_WHOLE(e2,e1)
+
+The potential application of <e1>conditional probabilities</e1> the Collocation Map provides may extend to cover very diverse areas of <e2>language processing</e2> such as sense disambiguation, thesaurus construction, automatic indexing, and document classification.
+USAGE(e2,e1)
+
+We discuss such <e1>"strapping" methods</e1> in general, and exhibit a particular method for strapping <e2>word-sense classifiers</e2> for ambiguous words
+USAGE(e2,e1)
+
+Our experiments on the Canadian Hansards show that our <e1>unsupervised technique</e1> is significantly more effective than picking seeds by hand (Yarowsky, 1995), which in turn is known to rival <e2>supervised methods</e2>
+COMPARE(e2,e1)
+
+This <e1>word association information</e1> is added to the <e2>system</e2> at the time of the automatic creation of our translation pattern database, thereby making this database more domain specific
+USAGE(e2,e1)
+
+This <e1>technique</e1> significantly improves the overall quality of <e2>translation</e2>, as measured in an independent blind evaluation.
+RESULT(e2,e1)
+
+We describe the experiments of the UC Berkeley team on improving <e1>English-Spanish machine translation</e1> of <e2>news text</e2>, as part of the WMT'08 Shared Translation Task
+USAGE(e2,e1)
+
+We further add a third phrase translation model trained on a version of the <e1>news bi-text</e1> augmented with <e2>monolingual sentence-level syntactic paraphrases</e2> on the source-language side, and we combine all models in a log-linear model using minimum error rate training
+PART_WHOLE(e1,e2)
+
+Several recently reported techniques for the automatic acquisition of <e1>Information Extraction &amp;&amp;lpar&amp;&amp;IE&amp;&amp;rpar&amp;&amp; systems</e1> have used <e2>dependency trees</e2> as the basis of their extraction pattern representation
+USAGE(e1,e2)
+
+An appropriate model should be expressive enough to represent the <e1>information</e1> which is to be extracted from <e2>text</e2> without being overly complicated
+PART_WHOLE(e2,e1)
+
+The number of control actions needed to switch languages was decreased over 93% when using <e1>TypeAny</e1> rather than a <e2>conventional method</e2>.
+COMPARE(e2,e1)
+
+It builds on an earlier system based on a relatively deep linguistic analysis, which we complement with a <e1>shallow component</e1> based on <e2>word overlap</e2>
+USAGE(e1,e2)
+
+However, earlier observations that the combination of <e1>features</e1> improves the <e2>overall accuracy</e2> could be replicated only partly.
+RESULT(e2,e1)
+
+In this paper, we address the problem of extracting <e1>data records</e1> and their attributes from <e2>unstructured biomedical full text</e2>
+PART_WHOLE(e2,e1)
+
+We evaluate the approach from the perspective of Information Extraction and achieve significant improvements on <e1>system performance</e1> compared with other <e2>baseline systems</e2>.
+COMPARE(e2,e1)
+
+In this paper, we describe a system by which the <e1>multilingual characteristics</e1> of <e2>Wikipedia</e2> can be utilized to annotate a large corpus of text with Named Entity Recognition &amp;&amp;lpar&amp;&amp;NER&amp;&amp;rpar&amp;&amp; tags requiring minimal human intervention and no linguistic expertise
+MODEL-FEATURE(e2,e1)
+
+In this paper, we describe a system by which the multilingual characteristics of Wikipedia can be utilized to annotate a <e1>large corpus</e1> of <e2>text</e2> with Named Entity Recognition &amp;&amp;lpar&amp;&amp;NER&amp;&amp;rpar&amp;&amp; tags requiring minimal human intervention and no linguistic expertise
+PART_WHOLE(e1,e2)
+
+We further describe the methods by which <e1>English language data</e1> can be used to bootstrap the <e2>NER process</e2> in other languages
+USAGE(e2,e1)
+
+Central to this approach is the <e1>entity-grid representation</e1> of <e2>discourse</e2>, which captures patterns of entity distribution in a text
+MODEL-FEATURE(e2,e1)
+
+The algorithm introduced in the article automatically abstracts a <e1>text</e1> into a set of <e2>entity transition sequences</e2> and records distributional, syntactic, and referential information about discourse entities
+MODEL-FEATURE(e1,e2)
+
+This paper describes <e1>discriminative language modeling</e1> for a large <e2>vocabulary speech recognition task</e2>
+USAGE(e2,e1)
+
+We contrast two parameter estimation methods: the <e1>perceptron algorithm</e1>, and a method based on <e2>conditional random fields &amp;&amp;lpar&amp;&amp;CRFs&amp;&amp;rpar&amp;&amp;</e2>
+COMPARE(e2,e1)
+
+The perceptron algorithm has the benefit of automatically selecting a relatively small <e1>feature set</e1> in just a couple of passes over the <e2>training data</e2>
+PART_WHOLE(e2,e1)
+
+However, using the feature set output from the perceptron algorithm (initialized with their weights), <e1>CRF training</e1> provides an additional 0.5% reduction in <e2>word error rate</e2>, for a total 1.8% absolute reduction from the baseline of 39.2%.
+RESULT(e2,e1)
+
+We briefly describe the design and implementation status of the system, and then focus on how this <e1>system</e1> is used to elicit <e2>useful data</e2> for supporting hypotheses about multimodal interaction in the domain of meeting retrieval and for developing NLP modules for this specific domain.
+USAGE(e2,e1)
+
+We show that the possibility to label distinctions with names has major advantages both for the use of <e1>feature logic</e1> in <e2>computational linguistics</e2> and its implementation
+USAGE(e2,e1)
+
+We give an open world semantics for feature terms, where the <e1>denotation</e1> of a <e2>term</e2> is determined in dependence on the disjunctive context, i.e. the choices taken for the disjunctions
+MODEL-FEATURE(e2,e1)
+
+Acquiring <e1>source language documents</e1> for testing, creating <e2>training datasets</e2> for customized MT lexicons, and building parallel corpora for MT evaluation require translators and non-native speaking analysts to handle large document collections
+USAGE(e2,e1)
+
+In particular, we will discuss the development and use of MTriage, an application environment that enables the translator to markup <e1>documents</e1> with <e2>metadata</e2> for MT parameterization and routing
+MODEL-FEATURE(e1,e2)
+
+The use of MTriage as a web-enabled front end to multiple MT engines has leveraged the capabilities of our human translators for creating <e1>lexicons</e1> from <e2>NFW &amp;&amp;lpar&amp;&amp;Not-Found-Word&amp;&amp;rpar&amp;&amp; lists</e2>, writing reference translations, and creating parallel corpora for MT development and evaluation.
+PART_WHOLE(e2,e1)
+
+The use of MTriage as a web-enabled front end to multiple MT engines has leveraged the capabilities of our human translators for creating lexicons from NFW &amp;&amp;lpar&amp;&amp;Not-Found-Word&amp;&amp;rpar&amp;&amp; lists, writing reference translations, and creating <e1>parallel corpora</e1> for <e2>MT</e2> development and evaluation.
+USAGE(e2,e1)
+
+This paper describes a method for analyzing <e1>Japanese double-subject construction</e1> having an <e2>adjective predicate</e2> based on the valency structure
+MODEL-FEATURE(e1,e2)
+
+A <e1>simple sentence</e1> usually has only one <e2>subjective case</e2> in most languages
+MODEL-FEATURE(e1,e2)
+
+This paper proposes a method for analyzing a <e1>Japanese double-subject construction</e1> having an <e2>adjective predicate</e2> in order to overcome thee problems described
+MODEL-FEATURE(e1,e2)
+
+<e1>Classification Hierarchies &amp;&amp;lpar&amp;&amp;CHs&amp;&amp;rpar&amp;&amp;</e1> are widely used to organize documents in a way that makes their <e2>retrieval</e2> easier
+USAGE(e2,e1)
+
+In this paper we discuss and evaluate CtxMatch, an approach to interoperability that discovers mappings among CHs considering the <e1>semantic interpretation</e1> of their <e2>nodes</e2>
+MODEL-FEATURE(e2,e1)
+
+CtxMatch performs a <e1>linguistic processing</e1> of the <e2>labels</e2> attached to the nodes, including tokenization, Part of Speech tagging, multiword recognition and word sense disambiguation
+USAGE(e2,e1)
+
+A second contribution is the use of <e1>clustering</e1> to make <e2>retrieval</e2> of the best matching example from the database more efficient
+USAGE(e2,e1)
+
+A second contribution is the use of clustering to make retrieval of the <e1>best matching example</e1> from the <e2>database</e2> more efficient
+PART_WHOLE(e2,e1)
+
+At the same time, higher level collective knowledge is often published using a <e1>graphical notation</e1> representing all the <e2>entities</e2> in a pathway and their interactions
+MODEL-FEATURE(e2,e1)
