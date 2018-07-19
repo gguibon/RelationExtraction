@@ -36,9 +36,9 @@ def getRelationDict(relationtxtpath):
         vals = line.strip('\n').strip(')').split('(')
         idRev = vals[1].split(',')
         reverse = False
-        if len(idRev) > 2: reverse = True 
-        if reverse: return ( '&&'.join(line.strip('\n').strip(')').split('(')[1].split(',')[:2]), ( vals[0], idRev[0], idRev[1] ) )
-        else: return ( '&&'.join(line.strip('\n').strip(')').split('(')[1].split(',')[:2]) ,( vals[0], idRev[1], idRev[0] ) )
+        if len(idRev) > 2 and 'REVERSE' in idRev[2]: reverse = True
+        if reverse: return ( '&&'.join(line.strip('\n').strip(')').split('(')[1].split(',')[:2]), ( vals[0], idRev[1], idRev[0] ) )
+        else: return ( '&&'.join(line.strip('\n').strip(')').split('(')[1].split(',')[:2]) ,( vals[0], idRev[0], idRev[1] ) )
     return OrderedDict( [parseLine(line) for line in open(relationtxtpath, 'r').readlines()] )
 
 
