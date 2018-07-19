@@ -15,7 +15,11 @@ semf.run([relationfile path], [xml file path], [out path])
 
 import xml.etree.ElementTree as ET
 from collections import OrderedDict, Counter
-import os, pprint, re, argparse 
+import os, pprint, re, argparse, html
+# import bs4 as BeautifulSoup
+# from bs4 import BeautifulStoneSoup
+
+
 
 # import spacy
 # nlp = spacy.load('en')
@@ -29,7 +33,10 @@ testrelationfile = "keys.test.2.txt"
 testtextfile = "2.test.text.xml"
 
 
-
+def HTMLEntitiesToUnicode(text):
+    """Converts HTML entities to unicode.  For example '&amp;' becomes '&'."""
+    text = BeautifulStoneSoup(text, convertEntities=BeautifulStoneSoup.ALL_ENTITIES)
+    return text
 
 def getRelationDict(relationtxtpath):
     def parseLine(line):
@@ -120,7 +127,9 @@ def sent2semevalTags(relInSent,sent):
         xmlstr = xmlstr.replace('<el>','').replace('</el>', '').replace('</entity>', '')
         if txtOrder == relOrder: label = '{}(e1,e2)'.format(rel[1][0] )
         else: label = '{}(e2,e1)'.format(rel[1][0] )
-
+        xmlstr = xmlstr.replace('\n', ' ')
+        if args.dq: xmlstr = '"'+xmlstr+'"'
+        if args.escape: xmlstr = html.unescape(xmlstr)
         if args.nc: res.append( '{}\n{}\n'.format(xmlstr.strip('\n'), label) )
         else: res.append( '{}\n{}\nComment:\n'.format(xmlstr.strip('\n'), label) )
 
@@ -148,13 +157,14 @@ def run(relpath, xmlpath, outpath):
 
 if __name__ == '__main__':
 
-
     parser = argparse.ArgumentParser(description='Transform a semeval2018 task7 subtask2 and 1 corpus to a semeval2010 task8 format.')
     parser.add_argument('-xml', '--xmlpath', help='XML file path containing the text : example : 1.1.text.xml')
     parser.add_argument('-rel', '--relationspath', help='TXT file path containing the relations info : example : 1.1.relations.txt')
     parser.add_argument('-out', '--outputpath', help='path for the output TXT file : example : TRAIN.TXT')
     parser.add_argument('-nc', action='store_true', help='remove the comment line')
     parser.add_argument('-ni', action='store_true', help='remove the index indication')
+    parser.add_argument('-dq', action='store_true', help='add doublequote for text column')
+    parser.add_argument('-escape', action='store_true', help='escape html entities')
     args = parser.parse_args()
 
     run(args.relationspath, args.xmlpath, args.outputpath)
