@@ -22,13 +22,16 @@ Remove the comment line with the nc flag :
 ```python3 semeval2018to2010format.py -xml 2.test.text.xml -rel keys.test.2.txt -out TEST_nocomment_noindex.TXT -nc```
 
 Remove the index information with the ni flag :
-```python3 semeval2018to2010format.py -xml 2.test.text.xml -rel keys.test.2.txt -out TEST_nocomment_noindex.TXT -ni```
+```python3 semeval2018to2010format.py -xml 2.test.text.xml -rel keys.test.2.txt -out TEST_noindex.TXT -ni```
+
+Surround text field with double quote using the dq flag :
+```python3 semeval2018to2010format.py -xml 2.test.text.xml -rel keys.test.2.txt -out TEST_quote.TXT -dq```
 
 All flags can be used together.
 
 ### Result
 
-Result files are already there under the names : TRAIN.TXT and TEST.TXT
+Result files are already there under the names : TRAIN.TXT and TEST.TXT and other variants
 
 # Contacts
 
