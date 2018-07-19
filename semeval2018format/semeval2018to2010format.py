@@ -129,7 +129,9 @@ def sent2semevalTags(relInSent,sent):
         else: label = '{}(e2,e1)'.format(rel[1][0] )
         xmlstr = xmlstr.replace('\n', ' ')
         if args.dq: xmlstr = '"'+xmlstr+'"'
-        if args.escape: xmlstr = html.unescape(xmlstr)
+        if args.escape: 
+            xmlstr = html.unescape(xmlstr)
+            xmlstr = xmlstr.replace('&&lpar&&', '(').replace('&&rpar&&', ')')
         if args.nc: res.append( '{}\n{}\n'.format(xmlstr.strip('\n'), label) )
         else: res.append( '{}\n{}\nComment:\n'.format(xmlstr.strip('\n'), label) )
 
@@ -139,6 +141,7 @@ def run(relpath, xmlpath, outpath):
 
     for numtext,(k, v) in enumerate(dict_text.items()):
         for s in v['abstract']:
+            # print('S', s)
             relInSent = list()
             num_occurrences = len([m.start() for m in re.finditer('<entity id=', s)] )
             if num_occurrences > 1:

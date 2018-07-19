@@ -34,7 +34,7 @@ PART_WHOLE(e1,e2)
 11	"It enables to define levels of typicality where individual <e1>entities</e1> are more or less typical elements of a <e2>concept</e2>.   "
 MODEL-FEATURE(e1,e2)
 
-12	" <e1>WordNet</e1> has been used extensively as a resource for the <e2>Word Sense Disambiguation &&lpar&&WSD&&rpar&& task</e2>, both as a sense inventory and a repository of semantic relationships"
+12	" <e1>WordNet</e1> has been used extensively as a resource for the <e2>Word Sense Disambiguation (WSD) task</e2>, both as a sense inventory and a repository of semantic relationships"
 USAGE(e1,e2)
 
 13	"We found that it would be very useful to assign to <e1>geographical entities</e1> in <e2>WordNet</e2> their coordinates, especially in order to implement geometric shape-based disambiguation methods"
@@ -124,7 +124,7 @@ USAGE(e1,e2)
 41	" A key task in an <e1>extraction system</e1> for <e2>query-oriented multi-document summarisation</e2>, necessary for computing relevance and redundancy, is modelling text semantics"
 USAGE(e1,e2)
 
-42	" Accurate dependency recovery has recently been reported for a number of <e1>wide-coverage statistical parsers</e1> using <e2>Combinatory Categorial Grammar &&lpar&&ccg&&rpar&&</e2>"
+42	" Accurate dependency recovery has recently been reported for a number of <e1>wide-coverage statistical parsers</e1> using <e2>Combinatory Categorial Grammar (ccg)</e2>"
 USAGE(e2,e1)
 
 43	"However, overall figures give no indication of a parser's performance on specific constructions, nor how suitable a <e1>parser</e1> is for specific <e2>applications</e2>"
@@ -142,7 +142,7 @@ RESULT(e2,e1)
 47	"Using a supertagger to assign <e1>categories</e1> to <e2>words</e2>, trained on the new data, leads to a dramatic increase in question parsing accuracy.   "
 MODEL-FEATURE(e1,e2)
 
-48	" This paper addresses <e1>syntax-based paraphrasing methods</e1> for <e2>Recognizing Textual Entailment &&lpar&&RTE&&rpar&&</e2>"
+48	" This paper addresses <e1>syntax-based paraphrasing methods</e1> for <e2>Recognizing Textual Entailment (RTE)</e2>"
 USAGE(e1,e2)
 
 49	"In particular, we describe a <e1>dependency-based paraphrasing algorithm</e1>, using the <e2>DIRT data set</e2>, and its application in the context of a straightforward RTE system based on aligning dependency trees"
@@ -163,7 +163,7 @@ RESULT(e1,e2)
 54	"This suggests that WordEnds is a viable <e1>model</e1> of child language acquisition and might be useful in <e2>speech understanding</e2>.   "
 USAGE(e1,e2)
 
-55	"<e1>Speech-to-text summarization systems</e1> usually take as input the <e2>output</e2> of an automatic speech recognition &&lpar&&ASR&&rpar&& system that is affected by issues like speech recognition errors, disfluencies, or difficulties in the accurate identification of sentence boundaries"
+55	"<e1>Speech-to-text summarization systems</e1> usually take as input the <e2>output</e2> of an automatic speech recognition (ASR) system that is affected by issues like speech recognition errors, disfluencies, or difficulties in the accurate identification of sentence boundaries"
 USAGE(e2,e1)
 
 56	"We propose the inclusion of related, solid background information to cope with the difficulties of summarizing spoken language and the use of <e1>multi-document summarization techniques</e1> in <e2>single document speech-to-text summarization</e2>"
@@ -208,7 +208,7 @@ MODEL-FEATURE(e1,e2)
 69	"The remainder of the paper analyzes the <e1>durational and aspectual knowledge</e1> needed for those <e2>tasks</e2>"
 USAGE(e1,e2)
 
-70	"In this paper we present a project which aims to standardise the format of a set of bilingual lexicons in order to make them available to potential users, to facilitate the exchange of data (among the resources and with other &&lpar&&monolingual&&rpar&& resources ) and to enable reuse of these <e1>lexicons</e1> for <e2>NLP applications</e2> like machine translation and multilingual information retrieval"
+70	"In this paper we present a project which aims to standardise the format of a set of bilingual lexicons in order to make them available to potential users, to facilitate the exchange of data (among the resources and with other (monolingual) resources ) and to enable reuse of these <e1>lexicons</e1> for <e2>NLP applications</e2> like machine translation and multilingual information retrieval"
 USAGE(e1,e2)
 
 71	"After exploiting the <e1>linguistic discrepancy</e1> between numbered <e2>arguments</e2> and ARGMs, we built a semantic role classifier based on a hierarchical feature selection strategy"
@@ -241,7 +241,7 @@ USAGE(e2,e1)
 80	"The relationship of this study to previous assessments of <e1>military applications</e1> of <e2>speech technology</e2> is discussed, and substantial recent progress is noted"
 USAGE(e2,e1)
 
-81	"Current efforts in <e1>military applications</e1> of <e2>speech technology</e2> which are highlighted include : (1) narrowband &&lpar&&2400 b/s&&rpar&& and very low-rate &&lpar&&50-1200 b/s&&rpar&& secure voice communication ; (2) voice/data integration in computer networks ; (3) speech recognition in fighter aircraft, military helicopters, battle management, and air traffic control training systems ; and (4) noise and interference removal for human listeners"
+81	"Current efforts in <e1>military applications</e1> of <e2>speech technology</e2> which are highlighted include : (1) narrowband (2400 b/s) and very low-rate (50-1200 b/s) secure voice communication ; (2) voice/data integration in computer networks ; (3) speech recognition in fighter aircraft, military helicopters, battle management, and air traffic control training systems ; and (4) noise and interference removal for human listeners"
 USAGE(e2,e1)
 
 82	"The framework demonstrates a uniform approach to <e1>generation and transfer</e1> based on <e2>declarative lexico-structural transformations</e2> of dependency structures of syntactic or conceptual levels ("uniform lexico-structural processing ")"
@@ -295,10 +295,10 @@ PART_WHOLE(e2,e1)
 98	"In this paper, we present an algorithm for extracting <e1>potential entries</e1> for a category from an <e2>on-line corpus</e2>, based upon a small set of exemplars"
 PART_WHOLE(e1,e2)
 
-99	" In this paper, we describe our experiments on statistical word sense disambiguation &&lpar&&WSD&&rpar&& using two systems based on different approaches : <e1>Naive Bayes</e1> on <e2>word tokens</e2> and Maximum Entropy on local syntactic and semantic features"
+99	" In this paper, we describe our experiments on statistical word sense disambiguation (WSD) using two systems based on different approaches : <e1>Naive Bayes</e1> on <e2>word tokens</e2> and Maximum Entropy on local syntactic and semantic features"
 USAGE(e2,e1)
 
-100	" In this paper, we describe our experiments on statistical word sense disambiguation &&lpar&&WSD&&rpar&& using two systems based on different approaches : Naive Bayes on word tokens and <e1>Maximum Entropy</e1> on <e2>local syntactic and semantic features</e2>"
+100	" In this paper, we describe our experiments on statistical word sense disambiguation (WSD) using two systems based on different approaches : Naive Bayes on word tokens and <e1>Maximum Entropy</e1> on <e2>local syntactic and semantic features</e2>"
 USAGE(e2,e1)
 
 101	"In the first approach, we consider a <e1>context window</e1> and a <e2>sub-window</e2> within it around the word to disambiguate"
@@ -310,7 +310,7 @@ USAGE(e2,e1)
 103	"In the second system, sense resolution is done using an approximate syntactic structure as well as <e1>semantics</e1> of <e2>neighboring nouns</e2> as features to a Maximum Entropy learner"
 MODEL-FEATURE(e1,e2)
 
-104	" The Document Understanding Conference &&lpar&&DUC&&rpar&& 2005 evaluation had a single <e1>user-oriented, question-focused summarization task</e1>, which was to synthesize from a set of 25-50 <e2>documents</e2> a well-organized, fluent answer to a complex question"
+104	" The Document Understanding Conference (DUC) 2005 evaluation had a single <e1>user-oriented, question-focused summarization task</e1>, which was to synthesize from a set of 25-50 <e2>documents</e2> a well-organized, fluent answer to a complex question"
 USAGE(e1,e2)
 
 105	"The evaluation shows that the best <e1>summarization systems</e1> have difficulty <e2>extracting relevant sentences</e2> in response to complex questions (as opposed to representative sentences that might be appropriate to a generic summary )"
@@ -322,7 +322,7 @@ USAGE(e2,e1)
 107	"The first one is based primarily on the concept of lexical overlap, considering a <e1>bag of words similarity overlap measure</e1> to form a <e2>mapping</e2> of terms in the hypothesis to the source text"
 USAGE(e1,e2)
 
-108	"We contrast the <e1>MT condition</e1>, for both text and audio data types, with high quality <e2>human reference Gold Standard &&lpar&&GS&&rpar&& translations</e2>"
+108	"We contrast the <e1>MT condition</e1>, for both text and audio data types, with high quality <e2>human reference Gold Standard (GS) translations</e2>"
 COMPARE(e1,e2)
 
 109	"Overall, subjects achieved 95% comprehension for <e1>GS</e1> and 74% for <e2>MT</e2>, across 4 genres and 3 difficulty levels"
@@ -364,22 +364,22 @@ PART_WHOLE(e1,e2)
 121	"Numerous abbreviations are used routinely throughout such texts and knowing their meaning is critical to <e1>data retrieval</e1> from the <e2>document</e2>"
 USAGE(e1,e2)
 
-122	"In this paper I will demonstrate a method of <e1>automatically generating training data</e1> for <e2>Maximum Entropy &&lpar&&ME&&rpar&& modeling</e2> of abbreviations and acronyms and will show that using ME modeling is a promising technique for abbreviation and acronym normalization"
+122	"In this paper I will demonstrate a method of <e1>automatically generating training data</e1> for <e2>Maximum Entropy (ME) modeling</e2> of abbreviations and acronyms and will show that using ME modeling is a promising technique for abbreviation and acronym normalization"
 USAGE(e1,e2)
 
-123	"In this paper I will demonstrate a method of automatically generating training data for Maximum Entropy &&lpar&&ME&&rpar&& modeling of abbreviations and acronyms and will show that using <e1>ME modeling</e1> is a promising technique for <e2>abbreviation and acronym normalization</e2>"
+123	"In this paper I will demonstrate a method of automatically generating training data for Maximum Entropy (ME) modeling of abbreviations and acronyms and will show that using <e1>ME modeling</e1> is a promising technique for <e2>abbreviation and acronym normalization</e2>"
 USAGE(e1,e2)
 
 124	"I report on the results of an experiment involving training a number of <e1>ME models</e1> used to normalize <e2>abbreviations</e2> and acronyms on a sample of 10,000 rheumatology notes with ~89% accuracy.   "
 USAGE(e1,e2)
 
-125	" In this paper we describe the roots of Controlled English &&lpar&&CE&&rpar&&, the analysis of several existing CE grammars, the development of a well-founded 150-rule CE grammar &&lpar&&COGRAM&&rpar&&, the elaboration of an <e1>algorithmic variant &&lpar&&ALCOGRAM&&rpar&&</e1> as a basis for <e2>NLP applications</e2>, the use of ALCOGRAM in a CA1 program teaching writers how to use it effectively, and the preparatory study into a Controlled English grammar and style checker within a desktop publishing &&lpar&&DTP&&rpar&& environment.   "
+125	" In this paper we describe the roots of Controlled English (CE), the analysis of several existing CE grammars, the development of a well-founded 150-rule CE grammar (COGRAM), the elaboration of an <e1>algorithmic variant (ALCOGRAM)</e1> as a basis for <e2>NLP applications</e2>, the use of ALCOGRAM in a CA1 program teaching writers how to use it effectively, and the preparatory study into a Controlled English grammar and style checker within a desktop publishing (DTP) environment.   "
 USAGE(e1,e2)
 
-126	" In this paper we describe the roots of Controlled English &&lpar&&CE&&rpar&&, the analysis of several existing CE grammars, the development of a well-founded 150-rule CE grammar &&lpar&&COGRAM&&rpar&&, the elaboration of an algorithmic variant &&lpar&&ALCOGRAM&&rpar&& as a basis for NLP applications, the use of <e1>ALCOGRAM</e1> in a <e2>CA1 program</e2> teaching writers how to use it effectively, and the preparatory study into a Controlled English grammar and style checker within a desktop publishing &&lpar&&DTP&&rpar&& environment.   "
+126	" In this paper we describe the roots of Controlled English (CE), the analysis of several existing CE grammars, the development of a well-founded 150-rule CE grammar (COGRAM), the elaboration of an algorithmic variant (ALCOGRAM) as a basis for NLP applications, the use of <e1>ALCOGRAM</e1> in a <e2>CA1 program</e2> teaching writers how to use it effectively, and the preparatory study into a Controlled English grammar and style checker within a desktop publishing (DTP) environment.   "
 USAGE(e1,e2)
 
-127	" In this paper we describe the roots of Controlled English &&lpar&&CE&&rpar&&, the analysis of several existing CE grammars, the development of a well-founded 150-rule CE grammar &&lpar&&COGRAM&&rpar&&, the elaboration of an algorithmic variant &&lpar&&ALCOGRAM&&rpar&& as a basis for NLP applications, the use of ALCOGRAM in a CA1 program teaching writers how to use it effectively, and the preparatory study into a Controlled English grammar and <e1>style checker</e1> within a <e2>desktop publishing &&lpar&&DTP&&rpar&& environment</e2>.   "
+127	" In this paper we describe the roots of Controlled English (CE), the analysis of several existing CE grammars, the development of a well-founded 150-rule CE grammar (COGRAM), the elaboration of an algorithmic variant (ALCOGRAM) as a basis for NLP applications, the use of ALCOGRAM in a CA1 program teaching writers how to use it effectively, and the preparatory study into a Controlled English grammar and <e1>style checker</e1> within a <e2>desktop publishing (DTP) environment</e2>.   "
 PART_WHOLE(e1,e2)
 
 128	" We present a <e1>discriminative, latent variable approach</e1> to <e2>syntactic parsing</e2> in which rules exist at multiple scales of refinement"
@@ -406,7 +406,7 @@ MODEL-FEATURE(e1,e2)
 135	"So our <e1>syntactic parsing system</e1> is implemented based on <e2>rule-based approach</e2> and statistics approach"
 USAGE(e2,e1)
 
-136	" In this paper a method for <e1>controlling the dialog</e1> in a <e2>natural language &&lpar&&NL&&rpar&& system</e2> is presented"
+136	" In this paper a method for <e1>controlling the dialog</e1> in a <e2>natural language (NL) system</e2> is presented"
 PART_WHOLE(e1,e2)
 
 137	"It provides a deep <e1>modeling</e1> of information processing based on <e2>time dependent propositional attitudes</e2> of the interacting agents"
@@ -538,7 +538,7 @@ USAGE(e1,e2)
 179	"We show how this algebra can be adapted to composition in grammar frameworks where a lexicon is not assumed, and how this underlies a practical implementation of <e1>semantic construction</e1> for the <e2>RASP system</e2>.   "
 USAGE(e1,e2)
 
-180	" We explore the use of <e1>Wikipedia</e1> as external knowledge to improve <e2>named entity recognition &&lpar&&NER&&rpar&&</e2>"
+180	" We explore the use of <e1>Wikipedia</e1> as external knowledge to improve <e2>named entity recognition (NER)</e2>"
 USAGE(e1,e2)
 
 181	"Our method retrieves the corresponding Wikipedia entry for each candidate word sequence and extracts a <e1>category label</e1> from the first <e2>sentence</e2> of the entry, which can be thought of as a definition part"
@@ -562,7 +562,7 @@ MODEL-FEATURE(e2,e1)
 187	"Manual evaluation supports the claim that the present <e1>approach</e1> is significantly superior to previous <e2>approaches</e2>.   "
 COMPARE(e1,e2)
 
-188	"Most of the previous <e1>Korean noun extraction systems</e1> use a <e2>morphological analyzer</e2> or a Part-of- Speech &&lpar&&POS&&rpar&& tagger"
+188	"Most of the previous <e1>Korean noun extraction systems</e1> use a <e2>morphological analyzer</e2> or a Part-of- Speech (POS) tagger"
 USAGE(e2,e1)
 
 189	"This paper proposes a new <e1>noun extraction method</e1> that uses the <e2>syllable based word recognition model</e2>"
@@ -712,10 +712,10 @@ PART_WHOLE(e1,e2)
 237	" In this paper, we explore the use of structured content as <e1>semantic constraints</e1> for enhancing the performance of traditional <e2>term-based document retrieval</e2> in special domains"
 USAGE(e1,e2)
 
-238	"First, we describe a method for automatic extraction of <e1>semantic content</e1> in the form of <e2>attribute-value &&lpar&&AV&&rpar&& pairs</e2> from natural language texts based on domain modelsconstructed from a semi-structured web resource"
+238	"First, we describe a method for automatic extraction of <e1>semantic content</e1> in the form of <e2>attribute-value (AV) pairs</e2> from natural language texts based on domain modelsconstructed from a semi-structured web resource"
 MODEL-FEATURE(e2,e1)
 
-239	"First, we describe a method for automatic extraction of semantic content in the form of attribute-value &&lpar&&AV&&rpar&& pairs from natural language texts based on <e1>domain models</e1>constructed from a <e2>semi-structured web resource</e2>"
+239	"First, we describe a method for automatic extraction of semantic content in the form of attribute-value (AV) pairs from natural language texts based on <e1>domain models</e1>constructed from a <e2>semi-structured web resource</e2>"
 PART_WHOLE(e1,e2)
 
 240	"Then, we explore the effect of combining a state-of-the-art term-based IR system and a simple <e1>constraint-based search system</e1> that uses the extracted <e2>AV pairs</e2>"
@@ -781,10 +781,10 @@ MODEL-FEATURE(e1,e2)
 260	"It improves on other recent analyses in the computational linguistics literature in three respects: (i) it uses no <e1>tree- or logical-form rewriting devices</e1> in building <e2>meaning representations</e2> (ii) this results in a fully reversible linguistic description, equally suited for analysis or generation (iii) the analysis extends to types of elliptical comparative not elsewhere treated.   "
 USAGE(e1,e2)
 
-261	"In contrast to earlier dialectology, we seek a comprehensive characterization of (potentially gradual) differences between dialects, rather than a geographic delineation of <e1>&&lpar&&discrete&&rpar&& features</e1> of <e2>individual words</e2> or pronunciations"
+261	"In contrast to earlier dialectology, we seek a comprehensive characterization of (potentially gradual) differences between dialects, rather than a geographic delineation of <e1>(discrete) features</e1> of <e2>individual words</e2> or pronunciations"
 MODEL-FEATURE(e1,e2)
 
-262	"We measure <e1>phonetic &&lpar&&un&&rpar&&relatedness</e1> between dialects using <e2>Levenshtein distance</e2>, and classify by clustering distances but also by analysis through multidimensional scaling.   "
+262	"We measure <e1>phonetic (un)relatedness</e1> between dialects using <e2>Levenshtein distance</e2>, and classify by clustering distances but also by analysis through multidimensional scaling.   "
 USAGE(e2,e1)
 
 263	"Experimental results using a threaded discussion corpus from an undergraduate class show that it achieves significant <e1>performance improvements</e1> compared with the <e2>baseline system</e2>.   "
@@ -886,13 +886,13 @@ USAGE(e1,e2)
 295	"Our approach is based on the analysis of the paths between two protein names in the <e1>dependency parse trees</e1> of the <e2>sentences</e2>"
 MODEL-FEATURE(e1,e2)
 
-296	"Given two dependency trees, we define two separate <e1>similarity functions &&lpar&&kernels&&rpar&&</e1> based on <e2>cosine similarity</e2> and edit distance among the paths between the protein names"
+296	"Given two dependency trees, we define two separate <e1>similarity functions (kernels)</e1> based on <e2>cosine similarity</e2> and edit distance among the paths between the protein names"
 USAGE(e2,e1)
 
 297	"<e1>Semi-supervised algorithms</e1> perform better than their supervised version by a wide margin especially when the amount of <e2>labeled data</e2> is limited.   "
 USAGE(e1,e2)
 
-298	"<e1>Language model &&lpar&&LM&&rpar&& adaptation</e1> is important for both <e2>speech and language processing</e2>"
+298	"<e1>Language model (LM) adaptation</e1> is important for both <e2>speech and language processing</e2>"
 USAGE(e1,e2)
 
 299	"In addition, a new dynamically adapted <e1>weighting scheme</e1> for topic mixture models is proposed based on <e2>LDA topic analysis</e2>"
@@ -901,10 +901,10 @@ USAGE(e2,e1)
 300	"Our experimental results show that the <e1>NE-driven LM adaptation</e1> framework outperforms the baseline generic <e2>LM</e2>"
 COMPARE(e1,e2)
 
-301	" The state-of-the-art system <e1>combination method</e1> for <e2>machine translation &&lpar&&MT&&rpar&&</e2> is the word-based combination using confusion networks"
+301	" The state-of-the-art system <e1>combination method</e1> for <e2>machine translation (MT)</e2> is the word-based combination using confusion networks"
 USAGE(e1,e2)
 
-302	" The state-of-the-art system combination method for machine translation &&lpar&&MT&&rpar&& is the <e1>word-based combination</e1> using <e2>confusion networks</e2>"
+302	" The state-of-the-art system combination method for machine translation (MT) is the <e1>word-based combination</e1> using <e2>confusion networks</e2>"
 USAGE(e2,e1)
 
 303	"In this paper, we present new methods to improve <e1>alignment</e1> of hypotheses using <e2>word synonyms</e2> and a two-pass alignment strategy"
@@ -1003,7 +1003,7 @@ USAGE(e1,e2)
 334	"We further add a third phrase translation model trained on a version of the <e1>news bi-text</e1> augmented with <e2>monolingual sentence-level syntactic paraphrases</e2> on the source-language side, and we combine all models in a log-linear model using minimum error rate training"
 PART_WHOLE(e2,e1)
 
-335	" Several recently reported techniques for the automatic acquisition of <e1>Information Extraction &&lpar&&IE&&rpar&& systems</e1> have used <e2>dependency trees</e2> as the basis of their extraction pattern representation"
+335	" Several recently reported techniques for the automatic acquisition of <e1>Information Extraction (IE) systems</e1> have used <e2>dependency trees</e2> as the basis of their extraction pattern representation"
 USAGE(e2,e1)
 
 336	"An appropriate model should be expressive enough to represent the <e1>information</e1> which is to be extracted from <e2>text</e2> without being overly complicated"
@@ -1024,10 +1024,10 @@ PART_WHOLE(e1,e2)
 341	"We evaluate the approach from the perspective of Information Extraction and achieve significant improvements on <e1>system performance</e1> compared with other <e2>baseline systems</e2>.   "
 COMPARE(e1,e2)
 
-342	" In this paper, we describe a system by which the <e1>multilingual characteristics</e1> of <e2>Wikipedia</e2> can be utilized to annotate a large corpus of text with Named Entity Recognition &&lpar&&NER&&rpar&& tags requiring minimal human intervention and no linguistic expertise"
+342	" In this paper, we describe a system by which the <e1>multilingual characteristics</e1> of <e2>Wikipedia</e2> can be utilized to annotate a large corpus of text with Named Entity Recognition (NER) tags requiring minimal human intervention and no linguistic expertise"
 MODEL-FEATURE(e1,e2)
 
-343	" In this paper, we describe a system by which the multilingual characteristics of Wikipedia can be utilized to annotate a <e1>large corpus</e1> of <e2>text</e2> with Named Entity Recognition &&lpar&&NER&&rpar&& tags requiring minimal human intervention and no linguistic expertise"
+343	" In this paper, we describe a system by which the multilingual characteristics of Wikipedia can be utilized to annotate a <e1>large corpus</e1> of <e2>text</e2> with Named Entity Recognition (NER) tags requiring minimal human intervention and no linguistic expertise"
 PART_WHOLE(e2,e1)
 
 344	"We further describe the methods by which <e1>English language data</e1> can be used to bootstrap the <e2>NER process</e2> in other languages"
@@ -1042,7 +1042,7 @@ MODEL-FEATURE(e2,e1)
 347	" This paper describes <e1>discriminative language modeling</e1> for a large <e2>vocabulary speech recognition task</e2>"
 USAGE(e1,e2)
 
-348	"We contrast two parameter estimation methods: the <e1>perceptron algorithm</e1>, and a method based on <e2>conditional random fields &&lpar&&CRFs&&rpar&&</e2>"
+348	"We contrast two parameter estimation methods: the <e1>perceptron algorithm</e1>, and a method based on <e2>conditional random fields (CRFs)</e2>"
 COMPARE(e1,e2)
 
 349	"The perceptron algorithm has the benefit of automatically selecting a relatively small <e1>feature set</e1> in just a couple of passes over the <e2>training data</e2>"
@@ -1066,10 +1066,10 @@ USAGE(e1,e2)
 355	"In particular, we will discuss the development and use of MTriage, an application environment that enables the translator to markup <e1>documents</e1> with <e2>metadata</e2> for MT parameterization and routing"
 MODEL-FEATURE(e2,e1)
 
-356	"The use of MTriage as a web-enabled front end to multiple MT engines has leveraged the capabilities of our human translators for creating <e1>lexicons</e1> from <e2>NFW &&lpar&&Not-Found-Word&&rpar&& lists</e2>, writing reference translations, and creating parallel corpora for MT development and evaluation.   "
+356	"The use of MTriage as a web-enabled front end to multiple MT engines has leveraged the capabilities of our human translators for creating <e1>lexicons</e1> from <e2>NFW (Not-Found-Word) lists</e2>, writing reference translations, and creating parallel corpora for MT development and evaluation.   "
 PART_WHOLE(e1,e2)
 
-357	"The use of MTriage as a web-enabled front end to multiple MT engines has leveraged the capabilities of our human translators for creating lexicons from NFW &&lpar&&Not-Found-Word&&rpar&& lists, writing reference translations, and creating <e1>parallel corpora</e1> for <e2>MT</e2> development and evaluation.   "
+357	"The use of MTriage as a web-enabled front end to multiple MT engines has leveraged the capabilities of our human translators for creating lexicons from NFW (Not-Found-Word) lists, writing reference translations, and creating <e1>parallel corpora</e1> for <e2>MT</e2> development and evaluation.   "
 USAGE(e1,e2)
 
 358	" This paper describes a method for analyzing <e1>Japanese double-subject construction</e1> having an <e2>adjective predicate</e2> based on the valency structure"
@@ -1081,7 +1081,7 @@ MODEL-FEATURE(e2,e1)
 360	"This paper proposes a method for analyzing a <e1>Japanese double-subject construction</e1> having an <e2>adjective predicate</e2> in order to overcome thee problems described"
 MODEL-FEATURE(e2,e1)
 
-361	"<e1>Classification Hierarchies &&lpar&&CHs&&rpar&&</e1> are widely used to organize documents in a way that makes their <e2>retrieval</e2> easier"
+361	"<e1>Classification Hierarchies (CHs)</e1> are widely used to organize documents in a way that makes their <e2>retrieval</e2> easier"
 USAGE(e1,e2)
 
 362	"In this paper we discuss and evaluate CtxMatch, an approach to interoperability that discovers mappings among CHs considering the <e1>semantic interpretation</e1> of their <e2>nodes</e2>"
